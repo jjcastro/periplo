@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		816F02E81F224FBC002BCDD9 /* periplo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */; };
+		8193951F1F258D610031721B /* SingleEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193951E1F258D610031721B /* SingleEntryController.swift */; };
 		819A68431F1F184C00615759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68421F1F184C00615759 /* AppDelegate.swift */; };
 		819A68451F1F184C00615759 /* EntriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68441F1F184C00615759 /* EntriesController.swift */; };
 		819A684D1F1F184C00615759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819A684C1F1F184C00615759 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		816F02E71F224FBC002BCDD9 /* periplo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = periplo.xcdatamodel; sourceTree = "<group>"; };
+		8193951E1F258D610031721B /* SingleEntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleEntryController.swift; sourceTree = "<group>"; };
 		819A683F1F1F184C00615759 /* periplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = periplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819A68421F1F184C00615759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		819A68441F1F184C00615759 /* EntriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				819A68791F20485A00615759 /* Helpers */,
 				819A68421F1F184C00615759 /* AppDelegate.swift */,
 				819A68441F1F184C00615759 /* EntriesController.swift */,
+				8193951E1F258D610031721B /* SingleEntryController.swift */,
 				819E33EA1F22F36700DA6AE0 /* Entry.swift */,
 				819A68851F21BCAC00615759 /* EntryCell.swift */,
 				819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */,
@@ -293,6 +296,7 @@
 				819A68761F20447100615759 /* Extensions.swift in Sources */,
 				819A68451F1F184C00615759 /* EntriesController.swift in Sources */,
 				819A68781F20484A00615759 /* BaseCell.swift in Sources */,
+				8193951F1F258D610031721B /* SingleEntryController.swift in Sources */,
 				819E33ED1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift in Sources */,
 				819A68861F21BCAC00615759 /* EntryCell.swift in Sources */,
 				819A68431F1F184C00615759 /* AppDelegate.swift in Sources */,

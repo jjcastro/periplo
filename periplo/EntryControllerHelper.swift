@@ -39,7 +39,7 @@ extension EntriesController {
             let entry = NSEntityDescription.insertNewObject(forEntityName: "Entry", into: context) as! Entry
             entry.title = "closure (or, emotional maturity)"
             entry.preview = "at this point, i feel like maybe there IS such a thing as emotional maturity.today, in the eve of my last week in Seattle, i sit here and wonder about all the"
-            entry.date = NSDate().addingTimeInterval(TimeInterval(daysAgo * 60 * 60 * 24 * -1))
+            entry.date = Date().addingTimeInterval(TimeInterval(daysAgo * 60 * 60 * 24 * -1))
             entry.isFavorite = NSNumber(value: isFavorite)
         }
     }

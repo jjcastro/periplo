@@ -18,7 +18,7 @@ class EntryCell: BaseCell {
             
             if let date = entry?.date {
                 let dateFormatter = DateFormatter()
-                dateFormatter.dateFormat = "MMM"
+                dateFormatter.dateFormat = "E"
                 
                 let attributes = dayNameLabel.attributedText?.attributes(at: 0, effectiveRange: nil)
                 let attributedString = NSMutableAttributedString(string: dateFormatter.string(from: date as Date).uppercased())

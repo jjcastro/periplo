@@ -62,4 +62,10 @@ class EntriesController: UICollectionViewController, UICollectionViewDelegateFlo
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let controller = SingleEntryController()
+        controller.entry = entries?[indexPath.item]
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
