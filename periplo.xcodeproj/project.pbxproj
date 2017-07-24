@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816F02E81F224FBC002BCDD9 /* periplo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */; };
+		819A68431F1F184C00615759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68421F1F184C00615759 /* AppDelegate.swift */; };
+		819A68451F1F184C00615759 /* EntriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68441F1F184C00615759 /* EntriesController.swift */; };
+		819A684D1F1F184C00615759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819A684C1F1F184C00615759 /* Assets.xcassets */; };
+		819A68501F1F184C00615759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819A684E1F1F184C00615759 /* LaunchScreen.storyboard */; };
+		819A685B1F1F184C00615759 /* periploTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A685A1F1F184C00615759 /* periploTests.swift */; };
+		819A68661F1F184C00615759 /* periploUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68651F1F184C00615759 /* periploUITests.swift */; };
+		819A68761F20447100615759 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68751F20447100615759 /* Extensions.swift */; };
+		819A68781F20484A00615759 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68771F20484A00615759 /* BaseCell.swift */; };
+		819A68861F21BCAC00615759 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68851F21BCAC00615759 /* EntryCell.swift */; };
+		819A68881F21DEFC00615759 /* EntryControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68871F21DEFC00615759 /* EntryControllerHelper.swift */; };
+		819E33EC1F22F36700DA6AE0 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819E33EA1F22F36700DA6AE0 /* Entry.swift */; };
+		819E33ED1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819A68571F1F184C00615759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819A68371F1F184C00615759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819A683E1F1F184C00615759;
+			remoteInfo = periplo;
+		};
+		819A68621F1F184C00615759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819A68371F1F184C00615759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819A683E1F1F184C00615759;
+			remoteInfo = periplo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816F02E71F224FBC002BCDD9 /* periplo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = periplo.xcdatamodel; sourceTree = "<group>"; };
+		819A683F1F1F184C00615759 /* periplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = periplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		819A68421F1F184C00615759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		819A68441F1F184C00615759 /* EntriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesController.swift; sourceTree = "<group>"; };
+		819A684C1F1F184C00615759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		819A684F1F1F184C00615759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		819A68511F1F184C00615759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819A68561F1F184C00615759 /* periploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = periploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819A685A1F1F184C00615759 /* periploTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periploTests.swift; sourceTree = "<group>"; };
+		819A685C1F1F184C00615759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819A68611F1F184C00615759 /* periploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = periploUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819A68651F1F184C00615759 /* periploUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periploUITests.swift; sourceTree = "<group>"; };
+		819A68671F1F184C00615759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819A68751F20447100615759 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		819A68771F20484A00615759 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		819A68851F21BCAC00615759 /* EntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		819A68871F21DEFC00615759 /* EntryControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryControllerHelper.swift; sourceTree = "<group>"; };
+		819E33EA1F22F36700DA6AE0 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819A683C1F1F184C00615759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819A68531F1F184C00615759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819A685E1F1F184C00615759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819A68361F1F184C00615759 = {
+			isa = PBXGroup;
+			children = (
+				819A68411F1F184C00615759 /* periplo */,
+				819A68591F1F184C00615759 /* periploTests */,
+				819A68641F1F184C00615759 /* periploUITests */,
+				819A68401F1F184C00615759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819A68401F1F184C00615759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819A683F1F1F184C00615759 /* periplo.app */,
+				819A68561F1F184C00615759 /* periploTests.xctest */,
+				819A68611F1F184C00615759 /* periploUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819A68411F1F184C00615759 /* periplo */ = {
+			isa = PBXGroup;
+			children = (
+				819A68791F20485A00615759 /* Helpers */,
+				819A68421F1F184C00615759 /* AppDelegate.swift */,
+				819A68441F1F184C00615759 /* EntriesController.swift */,
+				819E33EA1F22F36700DA6AE0 /* Entry.swift */,
+				819A68851F21BCAC00615759 /* EntryCell.swift */,
+				819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */,
+				816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */,
+				819A68871F21DEFC00615759 /* EntryControllerHelper.swift */,
+				819A684C1F1F184C00615759 /* Assets.xcassets */,
+				819A684E1F1F184C00615759 /* LaunchScreen.storyboard */,
+				819A68511F1F184C00615759 /* Info.plist */,
+			);
+			path = periplo;
+			sourceTree = "<group>";
+		};
+		819A68591F1F184C00615759 /* periploTests */ = {
+			isa = PBXGroup;
+			children = (
+				819A685A1F1F184C00615759 /* periploTests.swift */,
+				819A685C1F1F184C00615759 /* Info.plist */,
+			);
+			path = periploTests;
+			sourceTree = "<group>";
+		};
+		819A68641F1F184C00615759 /* periploUITests */ = {
+			isa = PBXGroup;
+			children = (
+				819A68651F1F184C00615759 /* periploUITests.swift */,
+				819A68671F1F184C00615759 /* Info.plist */,
+			);
+			path = periploUITests;
+			sourceTree = "<group>";
+		};
+		819A68791F20485A00615759 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				819A68751F20447100615759 /* Extensions.swift */,
+				819A68771F20484A00615759 /* BaseCell.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819A683E1F1F184C00615759 /* periplo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819A686A1F1F184C00615759 /* Build configuration list for PBXNativeTarget "periplo" */;
+			buildPhases = (
+				819A683B1F1F184C00615759 /* Sources */,
+				819A683C1F1F184C00615759 /* Frameworks */,
+				819A683D1F1F184C00615759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = periplo;
+			productName = periplo;
+			productReference = 819A683F1F1F184C00615759 /* periplo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819A68551F1F184C00615759 /* periploTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819A686D1F1F184C00615759 /* Build configuration list for PBXNativeTarget "periploTests" */;
+			buildPhases = (
+				819A68521F1F184C00615759 /* Sources */,
+				819A68531F1F184C00615759 /* Frameworks */,
+				819A68541F1F184C00615759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819A68581F1F184C00615759 /* PBXTargetDependency */,
+			);
+			name = periploTests;
+			productName = periploTests;
+			productReference = 819A68561F1F184C00615759 /* periploTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		819A68601F1F184C00615759 /* periploUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819A68701F1F184C00615759 /* Build configuration list for PBXNativeTarget "periploUITests" */;
+			buildPhases = (
+				819A685D1F1F184C00615759 /* Sources */,
+				819A685E1F1F184C00615759 /* Frameworks */,
+				819A685F1F1F184C00615759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819A68631F1F184C00615759 /* PBXTargetDependency */,
+			);
+			name = periploUITests;
+			productName = periploUITests;
+			productReference = 819A68611F1F184C00615759 /* periploUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819A68371F1F184C00615759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Juan José Castro";
+				TargetAttributes = {
+					819A683E1F1F184C00615759 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9387Q2DKN9;
+						ProvisioningStyle = Automatic;
+					};
+					819A68551F1F184C00615759 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9387Q2DKN9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 819A683E1F1F184C00615759;
+					};
+					819A68601F1F184C00615759 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9387Q2DKN9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 819A683E1F1F184C00615759;
+					};
+				};
+			};
+			buildConfigurationList = 819A683A1F1F184C00615759 /* Build configuration list for PBXProject "periplo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819A68361F1F184C00615759;
+			productRefGroup = 819A68401F1F184C00615759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819A683E1F1F184C00615759 /* periplo */,
+				819A68551F1F184C00615759 /* periploTests */,
+				819A68601F1F184C00615759 /* periploUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819A683D1F1F184C00615759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819A68501F1F184C00615759 /* LaunchScreen.storyboard in Resources */,
+				819A684D1F1F184C00615759 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819A68541F1F184C00615759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819A685F1F1F184C00615759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819A683B1F1F184C00615759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819A68881F21DEFC00615759 /* EntryControllerHelper.swift in Sources */,
+				816F02E81F224FBC002BCDD9 /* periplo.xcdatamodeld in Sources */,
+				819E33EC1F22F36700DA6AE0 /* Entry.swift in Sources */,
+				819A68761F20447100615759 /* Extensions.swift in Sources */,
+				819A68451F1F184C00615759 /* EntriesController.swift in Sources */,
+				819A68781F20484A00615759 /* BaseCell.swift in Sources */,
+				819E33ED1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift in Sources */,
+				819A68861F21BCAC00615759 /* EntryCell.swift in Sources */,
+				819A68431F1F184C00615759 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819A68521F1F184C00615759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819A685B1F1F184C00615759 /* periploTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819A685D1F1F184C00615759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819A68661F1F184C00615759 /* periploUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819A68581F1F184C00615759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819A683E1F1F184C00615759 /* periplo */;
+			targetProxy = 819A68571F1F184C00615759 /* PBXContainerItemProxy */;
+		};
+		819A68631F1F184C00615759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819A683E1F1F184C00615759 /* periplo */;
+			targetProxy = 819A68621F1F184C00615759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		819A684E1F1F184C00615759 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819A684F1F1F184C00615759 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819A68681F1F184C00615759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819A68691F1F184C00615759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819A686B1F1F184C00615759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9387Q2DKN9;
+				INFOPLIST_FILE = periplo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancastrov.periplooo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		819A686C1F1F184C00615759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9387Q2DKN9;
+				INFOPLIST_FILE = periplo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancastrov.periplooo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		819A686E1F1F184C00615759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9387Q2DKN9;
+				INFOPLIST_FILE = periploTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancastrov.periploTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/periplo.app/periplo";
+			};
+			name = Debug;
+		};
+		819A686F1F1F184C00615759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9387Q2DKN9;
+				INFOPLIST_FILE = periploTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancastrov.periploTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/periplo.app/periplo";
+			};
+			name = Release;
+		};
+		819A68711F1F184C00615759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9387Q2DKN9;
+				INFOPLIST_FILE = periploUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancastrov.periploUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = periplo;
+			};
+			name = Debug;
+		};
+		819A68721F1F184C00615759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9387Q2DKN9;
+				INFOPLIST_FILE = periploUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancastrov.periploUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = periplo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819A683A1F1F184C00615759 /* Build configuration list for PBXProject "periplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819A68681F1F184C00615759 /* Debug */,
+				819A68691F1F184C00615759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819A686A1F1F184C00615759 /* Build configuration list for PBXNativeTarget "periplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819A686B1F1F184C00615759 /* Debug */,
+				819A686C1F1F184C00615759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819A686D1F1F184C00615759 /* Build configuration list for PBXNativeTarget "periploTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819A686E1F1F184C00615759 /* Debug */,
+				819A686F1F1F184C00615759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819A68701F1F184C00615759 /* Build configuration list for PBXNativeTarget "periploUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819A68711F1F184C00615759 /* Debug */,
+				819A68721F1F184C00615759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				816F02E71F224FBC002BCDD9 /* periplo.xcdatamodel */,
+			);
+			currentVersion = 816F02E71F224FBC002BCDD9 /* periplo.xcdatamodel */;
+			path = periplo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 819A68371F1F184C00615759 /* Project object */;
+}
