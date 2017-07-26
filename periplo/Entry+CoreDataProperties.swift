@@ -16,8 +16,15 @@ extension Entry {
     }
 
     @NSManaged public var date: Date?
-    @NSManaged public var preview: String?
-    @NSManaged public var title: String?
+    @NSManaged public var text: String?
     @NSManaged public var isFavorite: NSNumber?
+    
+    var groupByMonth: String {
+        get {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "MMM yyyy"
+            return dateFormatter.string(from: self.date!)
+        }
+    }
 
 }

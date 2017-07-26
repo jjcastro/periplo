@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578F363419534304DCC40852 /* Pods_periplo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DD760C8FBCB14FF33C7977 /* Pods_periplo.framework */; };
 		816F02E81F224FBC002BCDD9 /* periplo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */; };
 		8193951F1F258D610031721B /* SingleEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193951E1F258D610031721B /* SingleEntryController.swift */; };
 		819A68431F1F184C00615759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68421F1F184C00615759 /* AppDelegate.swift */; };
@@ -21,6 +22,9 @@
 		819A68881F21DEFC00615759 /* EntryControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68871F21DEFC00615759 /* EntryControllerHelper.swift */; };
 		819E33EC1F22F36700DA6AE0 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819E33EA1F22F36700DA6AE0 /* Entry.swift */; };
 		819E33ED1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */; };
+		81C0F0801F25CB2000A60128 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0F07F1F25CB2000A60128 /* CustomTabBarController.swift */; };
+		B8FFD6A16ADCC4DA9A6A2E86 /* Pods_periploTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC8E9A4096DE4F9CE9BD8E0 /* Pods_periploTests.framework */; };
+		D052D076FF29565E67266072 /* Pods_periploUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6556004D2F206A7FAC9A7EA4 /* Pods_periploUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103C33EB4482B2DA147BBA62 /* Pods-periplo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periplo.release.xcconfig"; path = "Pods/Target Support Files/Pods-periplo/Pods-periplo.release.xcconfig"; sourceTree = "<group>"; };
+		14A9364FF6449B70928D32EB /* Pods-periploTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periploTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-periploTests/Pods-periploTests.debug.xcconfig"; sourceTree = "<group>"; };
+		422703DD3BE70FE71D8D59CE /* Pods-periploUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periploUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-periploUITests/Pods-periploUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6556004D2F206A7FAC9A7EA4 /* Pods_periploUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_periploUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC8E9A4096DE4F9CE9BD8E0 /* Pods_periploTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_periploTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A7C4006CFCAFACEFA4E8B8 /* Pods-periplo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periplo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-periplo/Pods-periplo.debug.xcconfig"; sourceTree = "<group>"; };
 		816F02E71F224FBC002BCDD9 /* periplo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = periplo.xcdatamodel; sourceTree = "<group>"; };
 		8193951E1F258D610031721B /* SingleEntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleEntryController.swift; sourceTree = "<group>"; };
 		819A683F1F1F184C00615759 /* periplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = periplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +71,10 @@
 		819A68871F21DEFC00615759 /* EntryControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryControllerHelper.swift; sourceTree = "<group>"; };
 		819E33EA1F22F36700DA6AE0 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		81C0F07F1F25CB2000A60128 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		9DAD16E4460980D210A26F0B /* Pods-periploTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periploTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-periploTests/Pods-periploTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3DD760C8FBCB14FF33C7977 /* Pods_periplo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_periplo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65AD0607799C78818C3411B /* Pods-periploUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periploUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-periploUITests/Pods-periploUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578F363419534304DCC40852 /* Pods_periplo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FFD6A16ADCC4DA9A6A2E86 /* Pods_periploTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D052D076FF29565E67266072 /* Pods_periploUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B4E1904F7F3EBE7A6A474E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A7C4006CFCAFACEFA4E8B8 /* Pods-periplo.debug.xcconfig */,
+				103C33EB4482B2DA147BBA62 /* Pods-periplo.release.xcconfig */,
+				14A9364FF6449B70928D32EB /* Pods-periploTests.debug.xcconfig */,
+				9DAD16E4460980D210A26F0B /* Pods-periploTests.release.xcconfig */,
+				422703DD3BE70FE71D8D59CE /* Pods-periploUITests.debug.xcconfig */,
+				C65AD0607799C78818C3411B /* Pods-periploUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		819A68361F1F184C00615759 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +125,8 @@
 				819A68591F1F184C00615759 /* periploTests */,
 				819A68641F1F184C00615759 /* periploUITests */,
 				819A68401F1F184C00615759 /* Products */,
+				6B4E1904F7F3EBE7A6A474E4 /* Pods */,
+				89942FD1142C6FCABBF39390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,16 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				819A68791F20485A00615759 /* Helpers */,
+				81C0F07E1F25B0F300A60128 /* Model */,
 				819A68421F1F184C00615759 /* AppDelegate.swift */,
 				819A68441F1F184C00615759 /* EntriesController.swift */,
+				81C0F07F1F25CB2000A60128 /* CustomTabBarController.swift */,
 				8193951E1F258D610031721B /* SingleEntryController.swift */,
-				819E33EA1F22F36700DA6AE0 /* Entry.swift */,
 				819A68851F21BCAC00615759 /* EntryCell.swift */,
-				819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */,
-				816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */,
-				819A68871F21DEFC00615759 /* EntryControllerHelper.swift */,
 				819A684C1F1F184C00615759 /* Assets.xcassets */,
 				819A684E1F1F184C00615759 /* LaunchScreen.storyboard */,
+				816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */,
 				819A68511F1F184C00615759 /* Info.plist */,
 			);
 			path = periplo;
@@ -154,6 +185,26 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		81C0F07E1F25B0F300A60128 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				819E33EA1F22F36700DA6AE0 /* Entry.swift */,
+				819E33EB1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift */,
+				819A68871F21DEFC00615759 /* EntryControllerHelper.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89942FD1142C6FCABBF39390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3DD760C8FBCB14FF33C7977 /* Pods_periplo.framework */,
+				6CC8E9A4096DE4F9CE9BD8E0 /* Pods_periploTests.framework */,
+				6556004D2F206A7FAC9A7EA4 /* Pods_periploUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819A686A1F1F184C00615759 /* Build configuration list for PBXNativeTarget "periplo" */;
 			buildPhases = (
+				48F21F50573D13A5D0196549 /* [CP] Check Pods Manifest.lock */,
 				819A683B1F1F184C00615759 /* Sources */,
 				819A683C1F1F184C00615759 /* Frameworks */,
 				819A683D1F1F184C00615759 /* Resources */,
+				06D81AE810CBAED5D2D81644 /* [CP] Embed Pods Frameworks */,
+				369F2335F88080CE77BCEF34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819A686D1F1F184C00615759 /* Build configuration list for PBXNativeTarget "periploTests" */;
 			buildPhases = (
+				EDCD330A46B555B803952A68 /* [CP] Check Pods Manifest.lock */,
 				819A68521F1F184C00615759 /* Sources */,
 				819A68531F1F184C00615759 /* Frameworks */,
 				819A68541F1F184C00615759 /* Resources */,
+				63507A3378A7DEE1A35C65B3 /* [CP] Embed Pods Frameworks */,
+				F5E5110FBE3CA3F3B2186E9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819A68701F1F184C00615759 /* Build configuration list for PBXNativeTarget "periploUITests" */;
 			buildPhases = (
+				991A889155414664E01EF887 /* [CP] Check Pods Manifest.lock */,
 				819A685D1F1F184C00615759 /* Sources */,
 				819A685E1F1F184C00615759 /* Frameworks */,
 				819A685F1F1F184C00615759 /* Resources */,
+				2AF46ED769CAB3DD7ACACE70 /* [CP] Embed Pods Frameworks */,
+				CC7C64149B004CA40F4B4B82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +345,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06D81AE810CBAED5D2D81644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-periplo/Pods-periplo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AF46ED769CAB3DD7ACACE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-periploUITests/Pods-periploUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369F2335F88080CE77BCEF34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-periplo/Pods-periplo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F21F50573D13A5D0196549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63507A3378A7DEE1A35C65B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-periploTests/Pods-periploTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		991A889155414664E01EF887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7C64149B004CA40F4B4B82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-periploUITests/Pods-periploUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCD330A46B555B803952A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E5110FBE3CA3F3B2186E9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-periploTests/Pods-periploTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		819A683B1F1F184C00615759 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -299,6 +497,7 @@
 				8193951F1F258D610031721B /* SingleEntryController.swift in Sources */,
 				819E33ED1F22F36700DA6AE0 /* Entry+CoreDataProperties.swift in Sources */,
 				819A68861F21BCAC00615759 /* EntryCell.swift in Sources */,
+				81C0F0801F25CB2000A60128 /* CustomTabBarController.swift in Sources */,
 				819A68431F1F184C00615759 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +642,7 @@
 		};
 		819A686B1F1F184C00615759 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A7C4006CFCAFACEFA4E8B8 /* Pods-periplo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9387Q2DKN9;
@@ -456,6 +656,7 @@
 		};
 		819A686C1F1F184C00615759 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103C33EB4482B2DA147BBA62 /* Pods-periplo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9387Q2DKN9;
@@ -469,6 +670,7 @@
 		};
 		819A686E1F1F184C00615759 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A9364FF6449B70928D32EB /* Pods-periploTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +686,7 @@
 		};
 		819A686F1F1F184C00615759 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAD16E4460980D210A26F0B /* Pods-periploTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +702,7 @@
 		};
 		819A68711F1F184C00615759 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422703DD3BE70FE71D8D59CE /* Pods-periploUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9387Q2DKN9;
@@ -513,6 +717,7 @@
 		};
 		819A68721F1F184C00615759 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65AD0607799C78818C3411B /* Pods-periploUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9387Q2DKN9;

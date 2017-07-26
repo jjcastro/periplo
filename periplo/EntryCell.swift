@@ -12,10 +12,6 @@ class EntryCell: BaseCell {
     
     var entry: Entry? {
         didSet {
-            if let title = entry?.title {
-                titleLabel.text = title
-            }
-            
             if let date = entry?.date {
                 let dateFormatter = DateFormatter()
                 dateFormatter.dateFormat = "E"
@@ -29,15 +25,24 @@ class EntryCell: BaseCell {
                 dateLabel.text = dateFormatter.string(from: date as Date)
             }
             
-            if let preview = entry?.preview {
+            if var entryText = entry?.text {
+                let title = entryText.components(separatedBy: .newlines)[0]
+                let length = title.characters.count
+                if length < 100 && title != "" {
+                    titleLabel.text = title.replacingOccurrences(of: "^#*\\s*", with: "", options: .regularExpression)
+                    if let to = entryText.index(entryText.startIndex, offsetBy: length, limitedBy: entryText.endIndex) {
+                        let untrimmed = entryText.substring(from: to)
+                        entryText = untrimmed.replacingOccurrences(of: "^\\n*", with: "", options: .regularExpression)
+                    }
+                }
                 let attributes = previewTextView.attributedText?.attributes(at: 0, effectiveRange: nil)
-                let attributedString = NSMutableAttributedString(string: preview)
+                let attributedString = NSMutableAttributedString(string: entryText)
                 attributedString.addAttributes(attributes!, range: NSRange(location: 0, length: attributedString.length))
                 previewTextView.attributedText = attributedString
             }
             
-            if let booleanValue = entry?.isFavorite, booleanValue as! Bool {
-                starLabel.isHidden = false
+            if let isFavorite = entry?.isFavorite {
+                starLabel.isHidden = !isFavorite.boolValue
             }
         }
     }
@@ -68,7 +73,7 @@ class EntryCell: BaseCell {
     
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "NULL"
+        label.text = ""
         label.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightBold)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label

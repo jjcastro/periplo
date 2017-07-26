@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import SwipeCellKit
 
-class BaseCell: UICollectionViewCell {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setupViews()
-    }
+class BaseCell: SwipeTableViewCell {
     
-    func setupViews() {
-        // to be overridden
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupViews()
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func setupViews() {
+        // to be overridden
     }
 }

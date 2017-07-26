@@ -17,11 +17,15 @@ extension EntriesController {
         let delegate = UIApplication.shared.delegate as? AppDelegate
         if let context = delegate?.persistentContainer.viewContext {
             
-            addTestEntry(title: "closure (or, emotional maturity)", preview: "at this point, i feel like maybe there IS such a thing as emotional maturity.today, in the eve of my last week in Seattle, i sit here and wonder about all the", daysAgo: 3, isFavorite: true)
+            let lorem = "#Entry Title\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
             
-            addTestEntry(title: "closure (or, emotional maturity)", preview: "at this point, i feel like maybe there IS such a thing as emotional maturity.today, in the eve of my last week in Seattle, i sit here and wonder about all the", daysAgo: 4, isFavorite: false)
+            addTestEntry(title: "entry test title", text: lorem, daysAgo: 3, isFavorite: true)
             
-            addTestEntry(title: "closure (or, emotional maturity)", preview: "at this point, i feel like maybe there IS such a thing as emotional maturity.today, in the eve of my last week in Seattle, i sit here and wonder about all the", daysAgo: 64, isFavorite: true)
+            addTestEntry(title: "another entry test title", text: lorem, daysAgo: 4, isFavorite: false)
+            
+            addTestEntry(title: "yet another entry test title", text: lorem, daysAgo: 64, isFavorite: true)
+            
+            addTestEntry(title: "yet another old entry title", text: lorem, daysAgo: 94, isFavorite: true)
             
             do {
                 try context.save()
@@ -30,15 +34,14 @@ extension EntriesController {
             }
         }
         
-        loadData()
+//        loadData()
     }
     
-    func addTestEntry(title: String, preview: String, daysAgo: Int, isFavorite: Bool) {
+    func addTestEntry(title: String, text: String, daysAgo: Int, isFavorite: Bool) {
         let delegate = UIApplication.shared.delegate as? AppDelegate
         if let context = delegate?.persistentContainer.viewContext {
             let entry = NSEntityDescription.insertNewObject(forEntityName: "Entry", into: context) as! Entry
-            entry.title = "closure (or, emotional maturity)"
-            entry.preview = "at this point, i feel like maybe there IS such a thing as emotional maturity.today, in the eve of my last week in Seattle, i sit here and wonder about all the"
+            entry.text = text
             entry.date = Date().addingTimeInterval(TimeInterval(daysAgo * 60 * 60 * 24 * -1))
             entry.isFavorite = NSNumber(value: isFavorite)
         }
@@ -48,33 +51,13 @@ extension EntriesController {
         let delegate = UIApplication.shared.delegate as? AppDelegate
         
         if let context = delegate?.persistentContainer.viewContext {
-            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Entry")
+            let fetch: NSFetchRequest<NSFetchRequestResult> = Entry.fetchRequest()
+            let request = NSBatchDeleteRequest(fetchRequest: fetch)
             do {
-                entries = try context.fetch(fetchRequest) as? [Entry]
-                for entry in entries! {
-                    context.delete(entry)
-                }
-                try context.save()
+                try context.execute(request)
             } catch let err {
                 print(err)
             }
         }
     }
-    
-    func loadData() {
-        let delegate = UIApplication.shared.delegate as? AppDelegate
-        
-        if let context = delegate?.persistentContainer.viewContext {
-            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Entry")
-            fetchRequest.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
-            do {
-                entries = try context.fetch(fetchRequest) as? [Entry]
-
-            } catch let err {
-                print(err)
-            }
-        }
-    }
-    
-
 }
