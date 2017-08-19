@@ -20,13 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = CustomTabBarController()
-            
         
-//        UINavigationBar.appearance().barTintColor = UIColor.rgb(153, 227, 201)
-        
+        UINavigationBar.appearance().barTintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [
-            NSFontAttributeName: UIFont.systemFont(ofSize: 18.0, weight: UIFontWeightBlack)
+            NSFontAttributeName: UIFont.systemFont(ofSize: 18.0, weight: UIFontWeightBold)
         ]
+        
+        application.statusBarStyle = .lightContent
 
         
         return true

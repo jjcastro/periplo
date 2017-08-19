@@ -35,11 +35,10 @@ class EntryCell: BaseCell {
                         entryText = untrimmed.replacingOccurrences(of: "^\\n*", with: "", options: .regularExpression)
                     }
                 }
-                let attributes = previewTextView.attributedText?.attributes(at: 0, effectiveRange: nil)
-                let attributedString = NSMutableAttributedString(string: entryText)
-                attributedString.addAttributes(attributes!, range: NSRange(location: 0, length: attributedString.length))
-                previewTextView.attributedText = attributedString
+                previewTextView.text = entryText
             }
+            
+            
             
             if let isFavorite = entry?.isFavorite {
                 starLabel.isHidden = !isFavorite.boolValue
@@ -50,7 +49,7 @@ class EntryCell: BaseCell {
     let dateLabel: UILabel = {
         let label = UILabel()
         label.text = "XX"
-        label.font = UIFont.systemFont(ofSize: 30.0, weight: UIFontWeightHeavy)
+        label.font = UIFont.systemFont(ofSize: 28.0, weight: UIFontWeightHeavy)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -62,7 +61,7 @@ class EntryCell: BaseCell {
         label.translatesAutoresizingMaskIntoConstraints = false
        
         let attributes = [NSKernAttributeName: 1.5,
-                          NSForegroundColorAttributeName: UIColor.blue,
+                          NSForegroundColorAttributeName: UIColor.rgb(0, 89, 246),
                           NSFontAttributeName: UIFont.systemFont(ofSize: 13.0, weight: UIFontWeightBold)] as [String : Any];
         
         attributedString.addAttributes(attributes, range: NSRange(location: 0, length: attributedString.length))
@@ -82,7 +81,7 @@ class EntryCell: BaseCell {
     let starLabel: UILabel = {
         let label = UILabel()
         label.text = "♥"
-        label.textColor = UIColor.magenta
+        label.textColor = UIColor.rgb(255, 94, 255)
         label.font = UIFont.systemFont(ofSize: 20.0, weight: UIFontWeightBold)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.isHidden = true
@@ -92,17 +91,13 @@ class EntryCell: BaseCell {
     let previewTextView: UITextView = {
         let textView = UITextView()
         textView.isUserInteractionEnabled = false
-        let preview = "NULL"
-        
+
         textView.textContainerInset = UIEdgeInsetsMake(0, -4, 0, 0)
-        textView.textContainer.lineBreakMode = .byTruncatingTail
-        textView.textContainer.maximumNumberOfLines = 2;
         textView.translatesAutoresizingMaskIntoConstraints = false
-        
         var style = NSMutableParagraphStyle()
         style.lineSpacing = 8
         
-        let attributedString = NSMutableAttributedString(string: preview)
+        let attributedString = NSMutableAttributedString(string: "NULL")
         let attributes = [NSParagraphStyleAttributeName: style,
                           NSForegroundColorAttributeName: UIColor.lightGray,
                           NSFontAttributeName: UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightRegular)] as [String : Any];
@@ -140,13 +135,13 @@ class EntryCell: BaseCell {
         addSubview(timelineViewTop)
         addSubview(timelineViewBtm)
         
-        addConstraintsWithFormat("H:|-16-[v0(40)]-13-[v1]-[v2(20)]-|", views: dayNameLabel, titleLabel, starLabel)
+        addConstraintsWithFormat("H:|-16-[v0(40)]-13-[v1]-[v2(20)]-12-|", views: dayNameLabel, titleLabel, starLabel)
         addConstraintsWithFormat("H:|-16-[v0(40)]-12-[v1]-|", views: dateLabel, previewTextView)
         addConstraintsWithFormat("H:|-34-[v0(3)]-33-[v1]|", views: timelineViewBtm, separatorView)
         addConstraintsWithFormat("H:|-34-[v0(3)]", views: timelineViewTop, separatorView)
         
-        addConstraintsWithFormat("V:|[v0(12)]-8-[v1(13)]-4-[v2(30)]-8-[v3]|", views: timelineViewTop, dayNameLabel, dateLabel, timelineViewBtm)
-        addConstraintsWithFormat("V:|-16-[v0(20)]-8-[v1(48)]", views: titleLabel, previewTextView)
+        addConstraintsWithFormat("V:|[v0(12)]-10-[v1(11)]-4-[v2(30)]-8-[v3]|", views: timelineViewTop, dayNameLabel, dateLabel, timelineViewBtm)
+        addConstraintsWithFormat("V:|-16-[v0(20)]-8-[v1(50)]", views: titleLabel, previewTextView)
         addConstraintsWithFormat("V:|-14-[v0(24)]", views: starLabel)
         addConstraintsWithFormat("V:[v0(1)]|", views: separatorView)
     }
