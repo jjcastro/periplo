@@ -299,7 +299,7 @@
 				TargetAttributes = {
 					819A683E1F1F184C00615759 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = XQKJ2RY8WJ;
+						DevelopmentTeam = V89X27E5JZ;
 						ProvisioningStyle = Automatic;
 					};
 					819A68551F1F184C00615759 = {
@@ -665,13 +665,14 @@
 			baseConfigurationReference = 76A7C4006CFCAFACEFA4E8B8 /* Pods-periplo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XQKJ2RY8WJ;
+				DEVELOPMENT_TEAM = V89X27E5JZ;
 				INFOPLIST_FILE = periplo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.castrovaron.periplo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castrovaron.periplo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -680,13 +681,14 @@
 			baseConfigurationReference = 103C33EB4482B2DA147BBA62 /* Pods-periplo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XQKJ2RY8WJ;
+				DEVELOPMENT_TEAM = V89X27E5JZ;
 				INFOPLIST_FILE = periplo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.castrovaron.periplo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castrovaron.periplo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
