@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Notepad
 import MarkdownKit
 
 class SingleEntryController: UIViewController, UITextViewDelegate {

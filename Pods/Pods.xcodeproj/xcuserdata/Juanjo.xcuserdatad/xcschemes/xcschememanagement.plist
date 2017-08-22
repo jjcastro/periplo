@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Notepad.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-periplo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>44D3572598C27C5B7416AC8FABE18354</key>
+		<key>11F7964076283BD04A0A06B14EAD3723</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DCDBD1EF49552884FFBADFAE81374831</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E78295375513DAF1A306CDDA7D59BAA7</key>
+		<key>BCC2F0349C3FD4A75510E8F536618C9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

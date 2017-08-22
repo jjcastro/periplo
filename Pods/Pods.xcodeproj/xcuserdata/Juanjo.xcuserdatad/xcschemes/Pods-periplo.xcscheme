@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E78295375513DAF1A306CDDA7D59BAA7"
+               BlueprintIdentifier = "11F7964076283BD04A0A06B14EAD3723"
                BuildableName = "Pods_periplo.framework"
                BlueprintName = "Pods-periplo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E78295375513DAF1A306CDDA7D59BAA7"
+            BlueprintIdentifier = "11F7964076283BD04A0A06B14EAD3723"
             BuildableName = "Pods_periplo.framework"
             BlueprintName = "Pods-periplo"
             ReferencedContainer = "container:Pods.xcodeproj">

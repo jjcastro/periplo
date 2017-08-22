@@ -6,7 +6,6 @@ target 'periplo' do
 
   # Pods for periplo
   pod 'SwipeCellKit'
-  pod 'Notepad', :git => 'https://github.com/ruddfawcett/Notepad.git'
   pod "MarkdownKit"
 
   target 'periploTests' do

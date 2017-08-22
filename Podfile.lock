@@ -1,27 +1,15 @@
 PODS:
   - MarkdownKit (1.2)
-  - Notepad (0.2.4)
   - SwipeCellKit (1.9.0)
 
 DEPENDENCIES:
   - MarkdownKit
-  - Notepad (from `https://github.com/ruddfawcett/Notepad.git`)
   - SwipeCellKit
-
-EXTERNAL SOURCES:
-  Notepad:
-    :git: https://github.com/ruddfawcett/Notepad.git
-
-CHECKOUT OPTIONS:
-  Notepad:
-    :commit: 842544e35aac805e6c3701cadc0eabdc2fcda887
-    :git: https://github.com/ruddfawcett/Notepad.git
 
 SPEC CHECKSUMS:
   MarkdownKit: 5ff9659d414f9a677b62667f4507766369d32129
-  Notepad: ac7bcace29c8020691946fe1f4cace8d390859eb
   SwipeCellKit: 893661973276ae3512a84ac0a47055923b10731e
 
-PODFILE CHECKSUM: 1b213e0ace9ca9553fcf0dbe048880f9e79a63b0
+PODFILE CHECKSUM: 710c36f558a8ee8aac9e3cfefe39676781f61e33
 
 COCOAPODS: 1.2.1
