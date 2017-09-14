@@ -37,7 +37,7 @@ class OpenSourceController: UIViewController {
         let attributedString = NSMutableAttributedString(attributedString: markdownParser.parse(info))
         let style = NSMutableParagraphStyle()
         style.minimumLineHeight = 26
-        attributedString.addAttributes([NSParagraphStyleAttributeName: style], range: NSRange(location: 0, length: attributedString.length))
+        attributedString.addAttributes([.paragraphStyle: style], range: NSRange(location: 0, length: attributedString.length))
         compiledTextView.attributedText = attributedString
     }
     
@@ -48,7 +48,4 @@ class OpenSourceController: UIViewController {
         view.addConstraintsWithFormat("V:|[v0]|", views: compiledTextView)
         view.addConstraintsWithFormat("H:|[v0]|", views: compiledTextView)
     }
-
-    
-    
 }

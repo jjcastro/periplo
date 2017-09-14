@@ -7,68 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C17DDA86DF98838AA9F2C216A498386 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25A2E2F0D51A5B0A183FF997F18DCDE /* MarkdownElement.swift */; };
-		2940F1FBA090DD447A4C337F4D2210B0 /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FA13380B723A69ADDD3E9A47E6B842 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32E317E38590F4C0493BCF21F6A7EBE9 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3609C3A0F26337112C9CF0EBCCC157 /* MarkdownCommonElement.swift */; };
-		3F2F05AC7AA790062D94F2C295FF4067 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EF073B893DF22DA9CEF1CA414E1B48 /* SwipeActionButton.swift */; };
-		4228B81DE6019B76892EFF8B77B51334 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D7C5829735BE4FA3AE734FFC2AC9A /* Swipeable.swift */; };
-		42C429CF0C2CDFE58338F0C1C2CA171E /* Pods-periplo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA71EB0D309BB0934B4DBAEE008F3886 /* Pods-periplo-dummy.m */; };
-		436DAB90079CFBD650C6819D7F338230 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF850CAF5BB0653D7A8944D2224E1A8 /* String+UTF16.swift */; };
+		0C17DDA86DF98838AA9F2C216A498386 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B58383AE83FFD836756A83D35CD6D9 /* MarkdownElement.swift */; };
+		100205694091546FED4E1E2389666AA6 /* Pods-periplo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2EB79AB4E23F220FEFA5AE28B4A8BC /* Pods-periplo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32E317E38590F4C0493BCF21F6A7EBE9 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9519D08D4F828807986811CB049D823 /* MarkdownCommonElement.swift */; };
+		436DAB90079CFBD650C6819D7F338230 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1675876715D922E6BAB4CA60CB4E9 /* String+UTF16.swift */; };
 		44B54A9E4FEADFDD88E1CACCD9B1B2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		4BB1DAADB2F8561010B38CB65F94AB9D /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C915B78A9D7B3291687174A1378962F /* MarkdownCodeEscaping.swift */; };
-		5351D77BFF9161FE4786C689799DC52A /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406B579165A27D01F5B8F2982304082E /* MarkdownStyle.swift */; };
-		53A37B66CD0651C0290479429AF0C37F /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C641C66D60C7487FF4AEC303FF5254DC /* SwipeActionTransitioning.swift */; };
-		53EAA7B056F2045064A66251E901DD33 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF42E63CD002C63B083450D05D80AE /* SwipeExpanding.swift */; };
-		568E701517CDE0E19B5C5FBD15C6F150 /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530CD44DBC857A9B1E78C02EC5EA38F3 /* MarkdownBold.swift */; };
-		58056406F9FF8760EA1719386E842538 /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF8F4227F52F549CCE8C7905D73FE0 /* MarkdownLinkElement.swift */; };
+		4BB1DAADB2F8561010B38CB65F94AB9D /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF569F143EAFEA6AB3D63C440E29E06 /* MarkdownCodeEscaping.swift */; };
+		5351D77BFF9161FE4786C689799DC52A /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1AF5EF4914EDF84FDA2612745043B /* MarkdownStyle.swift */; };
+		568E701517CDE0E19B5C5FBD15C6F150 /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C92EA0AC45CB196315DB46AC0AC892 /* MarkdownBold.swift */; };
+		58056406F9FF8760EA1719386E842538 /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90061F3BF87269DDC3D037297D8ED08C /* MarkdownLinkElement.swift */; };
 		5829CE10D3593CDDFB42778556E023D3 /* Pods-periploUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC33FC741CD3CDBBDEDBD3B542FB71F /* Pods-periploUITests-dummy.m */; };
-		5CC0F391CBB51E9E80D64CE9CF9E01BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		6412C8269F01CEBEB79B0FF7D3F44408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		66417904BEC2AC0EB4F422A6E41ECA45 /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4DD7B38A7B24C7702D9BC71F197A1 /* MarkdownEscaping.swift */; };
+		66417904BEC2AC0EB4F422A6E41ECA45 /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA644CFFE2FEAFB6CEBE74C8704D85 /* MarkdownEscaping.swift */; };
 		68C2BAB8EBBA7207B2B090E95F4090A5 /* Pods-periploUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E88510AC75CC1356EFBC0F25BA4C47 /* Pods-periploUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B906DF34277253CE5B7875AFB963FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		72C6DFAB8A68B727E84C15238230B0F0 /* Pods-periploTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7397E385A451D72096353F17E468D /* Pods-periploTests-dummy.m */; };
-		741CDDA42538501F67AA50084B7E2E11 /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772432BDAAFA613C2A352DE7CCB9CC62 /* MarkdownHeader.swift */; };
-		7A13F873BFF551950C8B0EC35A5B946B /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B39F8801F797D88BE7024FE7DFF056 /* MarkdownCode.swift */; };
-		7B2CC758E48C9422700BB5A642BB4E07 /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288EB2E0C5269FE42787289784D5F02 /* SwipeTableViewCell+Accessibility.swift */; };
-		81B50D42B91E5FE7DCAEAF046F656722 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6419D7E26F87E3EA9CF890D48577C23 /* SwipeTableViewCellDelegate.swift */; };
-		8A4A808693D66E677EFA6604CBB85426 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A4FC65388BED4588685C4CA53DDDF /* SwipeTransitionLayout.swift */; };
-		8A627115EB4735ACF32F72FBF3A1DC05 /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7EB9326B53E5006895E8726FA9F75 /* MarkdownLink.swift */; };
-		8D0EE977E3082A6FFEB8DDAAD1FEE44B /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16A01F92F974716A73617A1007A361 /* MarkdownLevelElement.swift */; };
-		9C16F4C3F659FEBA2BB595EB0CD148D7 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E8B99709300F1ADEAC2F896D150301 /* SwipeCellKit-dummy.m */; };
-		9D46F1D61C69FE5F3D48272856CF2B2C /* MarkdownKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9663B6AABCFE8496FB77F0B4ED218F3F /* MarkdownKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABAC76B800592E79F8D40E14587E1136 /* SwipeTableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C35F4E7574E26EC40E19E006283261 /* SwipeTableOptions.swift */; };
-		AFAB65342EF2CA1FC186449A3A6C85A2 /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD66E986EB000322809842B61CA873 /* MarkdownQuote.swift */; };
+		741CDDA42538501F67AA50084B7E2E11 /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A04541DB069262D743C68B8326F96E /* MarkdownHeader.swift */; };
+		7A13F873BFF551950C8B0EC35A5B946B /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A634CDE6FD076DD340AF168F140DCC /* MarkdownCode.swift */; };
+		8A627115EB4735ACF32F72FBF3A1DC05 /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63DBAD44FD6A35CA00A67BFC30335F /* MarkdownLink.swift */; };
+		8D0EE977E3082A6FFEB8DDAAD1FEE44B /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F8F9D77765EB21A776957F859E3E6 /* MarkdownLevelElement.swift */; };
+		9D46F1D61C69FE5F3D48272856CF2B2C /* MarkdownKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548E6149DD8EEAE2836B8738022652CE /* MarkdownKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFAB65342EF2CA1FC186449A3A6C85A2 /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3779A7D447CAE53867AC36E2B4724B82 /* MarkdownQuote.swift */; };
 		B77E45E6F0896FA5830E04CF68584C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		B8BE39858DB05ADEF9383F60F07BD760 /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F2F9A64BB6D6CAC0FF67591BBABFC /* MarkdownAutomaticLink.swift */; };
-		BB3D7486CAA3FAE3451D88E03FFB68AB /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755AA2DEB7E405C43F7D344E787386F7 /* SwipeAction.swift */; };
-		BE42BEC16FEDBDCBDBE3DE15332FE62E /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4F89FDCF936714C41F991F8F0B6A7 /* MarkdownItalic.swift */; };
+		B8BE39858DB05ADEF9383F60F07BD760 /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDF3967DFAE835DCFA943A4E39E7DF /* MarkdownAutomaticLink.swift */; };
+		BE42BEC16FEDBDCBDBE3DE15332FE62E /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2C95D714E60FD45CF5D9ECF050C2C /* MarkdownItalic.swift */; };
+		CF051ED20AA5AFDBDB1E4BFEF2C9E684 /* Pods-periplo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA71EB0D309BB0934B4DBAEE008F3886 /* Pods-periplo-dummy.m */; };
 		D1BF02A412C65529F75031CA147CDA13 /* Pods-periploTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C0BBA97C5EE1C1F9CE7CEA34009B43 /* Pods-periploTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA8A576F68F1AB0C14D7C061D70F83EA /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20FC0DFFB63A57862A2BB200D8299C /* MarkdownUnescaping.swift */; };
-		DD0AF1C2607FEB39577835E4BD4AA489 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1E82730C429E16B1C6D9DF4FAD489 /* UIFont+Traits.swift */; };
-		DEE3C60F8DFAE3B12B3178080E9A4566 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF8EB081AE4A11DB29048BE72CBA02C /* SwipeTableViewCell.swift */; };
-		E2EF86F42D6B453E604DFA71B89C56BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77080611194E17138090B85452F32C3 /* Extensions.swift */; };
-		E4918D6052E7E42C04C3EA1AF728E209 /* Pods-periplo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2EB79AB4E23F220FEFA5AE28B4A8BC /* Pods-periplo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E640AD46672C1F076BCE8A0882CDAFDD /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37B065C40B612CFF303AE9C522C0D1 /* SwipeFeedback.swift */; };
-		E83114A9BF7F252BD24B22FFAE264406 /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36726472AD7B69E3298BCC908E8A1CBA /* MarkdownList.swift */; };
-		EC2AADCD3557FB8A73CE35C00A62DB90 /* MarkdownKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0990710FEA775F40A167C930764F4C06 /* MarkdownKit-dummy.m */; };
-		ECE3F5CA07D42F6BC95B20FD3E3C5DA6 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4624BBA2D0FB45B9B7319F04258EDCE /* MarkdownParser.swift */; };
-		F2B091E111279DE109150AE4275ABC08 /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852BC6F7904986298D0835C5079E7DC5 /* SwipeTableViewCell+Display.swift */; };
-		F9D0AF50077FA53AFE48CC27D2C6B659 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E2A2858BBEFED23F435852937725A /* SwipeAnimator.swift */; };
-		FD1EB3454AB15D4193E68DEE170FB45A /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4D15A17E812B4F7E5C7A5525A1869 /* SwipeActionsView.swift */; };
-		FDAC7C8653C5FE2C4DF22562249BFD02 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CD367AC28A6B8E163D3092FF9803C /* SwipeExpansionStyle.swift */; };
+		D3AEE7C8AB1193DB242D43A6F39158D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DA8A576F68F1AB0C14D7C061D70F83EA /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA5665B447A00B06547F8E8973B6AA2 /* MarkdownUnescaping.swift */; };
+		DD0AF1C2607FEB39577835E4BD4AA489 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AAF3FE450936DBCA9C03B65AF75555 /* UIFont+Traits.swift */; };
+		E83114A9BF7F252BD24B22FFAE264406 /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20577B8417EDEC7BD4AFB466E6AA244D /* MarkdownList.swift */; };
+		EC2AADCD3557FB8A73CE35C00A62DB90 /* MarkdownKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F62218B4B3B011AE3097083788C5100F /* MarkdownKit-dummy.m */; };
+		ECE3F5CA07D42F6BC95B20FD3E3C5DA6 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A61356501CE3B2C15BDDBDC8B43FE /* MarkdownParser.swift */; };
 		FFCD1D26D5498F2A6A1EBD86172569C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		72EBC8C422780BEB1A3D2425B2C3AE9F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCC2F0349C3FD4A75510E8F536618C9A;
-			remoteInfo = SwipeCellKit;
-		};
-		CC073B3A6E040DFB8A3133F484E458A5 /* PBXContainerItemProxy */ = {
+		24FD9B66B62C88584A515229B800C0AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -79,98 +53,75 @@
 
 /* Begin PBXFileReference section */
 		039110012CB241DBB63C6FC2C55B6621 /* Pods-periploTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-periploTests-resources.sh"; sourceTree = "<group>"; };
-		05B39F8801F797D88BE7024FE7DFF056 /* MarkdownCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCode.swift; path = MarkdownKit/Classes/Elements/MarkdownCode.swift; sourceTree = "<group>"; };
+		04ADCE322506FD6D39FC6BE2E96CB0B6 /* MarkdownKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkdownKit.xcconfig; sourceTree = "<group>"; };
 		07E88510AC75CC1356EFBC0F25BA4C47 /* Pods-periploUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-periploUITests-umbrella.h"; sourceTree = "<group>"; };
 		0918B11E33F1D64BDE3521C1B919F063 /* Pods-periplo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-periplo.modulemap"; sourceTree = "<group>"; };
-		0990710FEA775F40A167C930764F4C06 /* MarkdownKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkdownKit-dummy.m"; sourceTree = "<group>"; };
-		1935CF1665ADCA16960FE017AEBA9188 /* Pods_periploTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_periploTests.framework; path = "Pods-periploTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26E7EB9326B53E5006895E8726FA9F75 /* MarkdownLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLink.swift; path = MarkdownKit/Classes/Elements/MarkdownLink.swift; sourceTree = "<group>"; };
+		0FA5665B447A00B06547F8E8973B6AA2 /* MarkdownUnescaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownUnescaping.swift; path = MarkdownKit/Classes/Elements/Escaping/MarkdownUnescaping.swift; sourceTree = "<group>"; };
+		0FFA644CFFE2FEAFB6CEBE74C8704D85 /* MarkdownEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownEscaping.swift; path = MarkdownKit/Classes/Elements/Escaping/MarkdownEscaping.swift; sourceTree = "<group>"; };
+		12A04541DB069262D743C68B8326F96E /* MarkdownHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownHeader.swift; path = MarkdownKit/Classes/Elements/MarkdownHeader.swift; sourceTree = "<group>"; };
+		20577B8417EDEC7BD4AFB466E6AA244D /* MarkdownList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownList.swift; path = MarkdownKit/Classes/Elements/MarkdownList.swift; sourceTree = "<group>"; };
+		2742B7A6AB32E9D1FC1EBD8C20BE0FAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292FC536FEEF03C85440A70EFDBE7DE4 /* Pods-periplo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-periplo-frameworks.sh"; sourceTree = "<group>"; };
-		2F9CD367AC28A6B8E163D3092FF9803C /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
-		31E4D15A17E812B4F7E5C7A5525A1869 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
+		2ADDF3967DFAE835DCFA943A4E39E7DF /* MarkdownAutomaticLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownAutomaticLink.swift; path = MarkdownKit/Classes/Elements/MarkdownAutomaticLink.swift; sourceTree = "<group>"; };
 		3210D55977605693F218380BDF7B5863 /* Pods-periploTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-periploTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		36726472AD7B69E3298BCC908E8A1CBA /* MarkdownList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownList.swift; path = MarkdownKit/Classes/Elements/MarkdownList.swift; sourceTree = "<group>"; };
+		3779A7D447CAE53867AC36E2B4724B82 /* MarkdownQuote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownQuote.swift; path = MarkdownKit/Classes/Elements/MarkdownQuote.swift; sourceTree = "<group>"; };
 		38AF30093294064E5CFBF9978846F02C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CC33FC741CD3CDBBDEDBD3B542FB71F /* Pods-periploUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-periploUITests-dummy.m"; sourceTree = "<group>"; };
-		406B579165A27D01F5B8F2982304082E /* MarkdownStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownStyle.swift; path = MarkdownKit/Classes/Protocols/MarkdownStyle.swift; sourceTree = "<group>"; };
-		42B3C053C2F5DE195B1C08E1F246243D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6159C832FFD3FE56FB5F6FE7ADE238 /* Pods-periploUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-periploUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4BF8EB081AE4A11DB29048BE72CBA02C /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 		50A5E4B6C1BFF984878EEB7534C63AD7 /* Pods-periplo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-periplo-acknowledgements.plist"; sourceTree = "<group>"; };
-		525D7C5829735BE4FA3AE734FFC2AC9A /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
-		530CD44DBC857A9B1E78C02EC5EA38F3 /* MarkdownBold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownBold.swift; path = MarkdownKit/Classes/Elements/MarkdownBold.swift; sourceTree = "<group>"; };
 		5335EC5B02B926F7313A5C8D7B506B19 /* Pods-periploUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-periploUITests-frameworks.sh"; sourceTree = "<group>"; };
-		55FF8F4227F52F549CCE8C7905D73FE0 /* MarkdownLinkElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLinkElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownLinkElement.swift; sourceTree = "<group>"; };
+		548E6149DD8EEAE2836B8738022652CE /* MarkdownKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkdownKit-umbrella.h"; sourceTree = "<group>"; };
 		567A6A19FD9E2F147586BA9556D23C8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58FA13380B723A69ADDD3E9A47E6B842 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
-		59F8A77D26A7A7FD114F29FB706B8DD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60E8B99709300F1ADEAC2F896D150301 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		58B1AF5EF4914EDF84FDA2612745043B /* MarkdownStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownStyle.swift; path = MarkdownKit/Classes/Protocols/MarkdownStyle.swift; sourceTree = "<group>"; };
+		5CA1675876715D922E6BAB4CA60CB4E9 /* String+UTF16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UTF16.swift"; path = "MarkdownKit/Classes/Extensions/String+UTF16.swift"; sourceTree = "<group>"; };
+		5D18613C8564A20A89F7E4F8FFAF827D /* Pods_periploTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_periploTests.framework; path = "Pods-periploTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE0E22DF7DE9F7C5C2EF799E8991C84 /* Pods_periploUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_periploUITests.framework; path = "Pods-periploUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65448E4AFC3CF9551E1FC50FD6469A03 /* Pods-periplo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-periplo-resources.sh"; sourceTree = "<group>"; };
 		68C0BBA97C5EE1C1F9CE7CEA34009B43 /* Pods-periploTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-periploTests-umbrella.h"; sourceTree = "<group>"; };
+		6BF2C95D714E60FD45CF5D9ECF050C2C /* MarkdownItalic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownItalic.swift; path = MarkdownKit/Classes/Elements/MarkdownItalic.swift; sourceTree = "<group>"; };
 		6D2D9F2CC53101B605B1A69B26511FB5 /* Pods-periplo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-periplo.release.xcconfig"; sourceTree = "<group>"; };
-		6FA4DD7B38A7B24C7702D9BC71F197A1 /* MarkdownEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownEscaping.swift; path = MarkdownKit/Classes/Elements/Escaping/MarkdownEscaping.swift; sourceTree = "<group>"; };
-		71C35F4E7574E26EC40E19E006283261 /* SwipeTableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableOptions.swift; path = Source/SwipeTableOptions.swift; sourceTree = "<group>"; };
-		755AA2DEB7E405C43F7D344E787386F7 /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
-		772432BDAAFA613C2A352DE7CCB9CC62 /* MarkdownHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownHeader.swift; path = MarkdownKit/Classes/Elements/MarkdownHeader.swift; sourceTree = "<group>"; };
-		7C915B78A9D7B3291687174A1378962F /* MarkdownCodeEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCodeEscaping.swift; path = MarkdownKit/Classes/Elements/Escaping/MarkdownCodeEscaping.swift; sourceTree = "<group>"; };
+		7E63DBAD44FD6A35CA00A67BFC30335F /* MarkdownLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLink.swift; path = MarkdownKit/Classes/Elements/MarkdownLink.swift; sourceTree = "<group>"; };
 		81B19B8B5610D9B0E0FB4D2595490DA9 /* Pods-periploUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-periploUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		81D53D218E946839F01970A1219F93C0 /* Pods-periploUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-periploUITests.release.xcconfig"; sourceTree = "<group>"; };
 		83D7397E385A451D72096353F17E468D /* Pods-periploTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-periploTests-dummy.m"; sourceTree = "<group>"; };
-		83DD66E986EB000322809842B61CA873 /* MarkdownQuote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownQuote.swift; path = MarkdownKit/Classes/Elements/MarkdownQuote.swift; sourceTree = "<group>"; };
 		8400CAED18F4BAB8E437B926B6C78937 /* Pods-periploTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-periploTests.release.xcconfig"; sourceTree = "<group>"; };
-		852BC6F7904986298D0835C5079E7DC5 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
-		884129CAB14550D6400B5ED92DD165C9 /* MarkdownKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarkdownKit.framework; path = MarkdownKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E55091EE6BBC5B20ECF295F50B9407 /* MarkdownKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkdownKit-prefix.pch"; sourceTree = "<group>"; };
 		8BCB160B3BF4D8662FC6358493FE0717 /* Pods-periplo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-periplo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8F37B065C40B612CFF303AE9C522C0D1 /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		8DF569F143EAFEA6AB3D63C440E29E06 /* MarkdownCodeEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCodeEscaping.swift; path = MarkdownKit/Classes/Elements/Escaping/MarkdownCodeEscaping.swift; sourceTree = "<group>"; };
+		90061F3BF87269DDC3D037297D8ED08C /* MarkdownLinkElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLinkElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownLinkElement.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9573A027A666E158963F2B6394C7A842 /* Pods_periplo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_periplo.framework; path = "Pods-periplo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9663B6AABCFE8496FB77F0B4ED218F3F /* MarkdownKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkdownKit-umbrella.h"; sourceTree = "<group>"; };
-		96E4F89FDCF936714C41F991F8F0B6A7 /* MarkdownItalic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownItalic.swift; path = MarkdownKit/Classes/Elements/MarkdownItalic.swift; sourceTree = "<group>"; };
-		9BDD533BFDE729A18323BFE59A4B0B42 /* MarkdownKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkdownKit.xcconfig; sourceTree = "<group>"; };
-		A3EF073B893DF22DA9CEF1CA414E1B48 /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		947F8F9D77765EB21A776957F859E3E6 /* MarkdownLevelElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLevelElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownLevelElement.swift; sourceTree = "<group>"; };
+		94B58383AE83FFD836756A83D35CD6D9 /* MarkdownElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownElement.swift; sourceTree = "<group>"; };
+		96BD4DDF9540127B2315BA4B7A3C9C36 /* MarkdownKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MarkdownKit.modulemap; sourceTree = "<group>"; };
 		A96B22D21AFD0171E5D21BA970B35D0E /* Pods-periploUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-periploUITests.modulemap"; sourceTree = "<group>"; };
-		ABDA4B97C4731E73B705CE99E8621AA7 /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
-		AC16A01F92F974716A73617A1007A361 /* MarkdownLevelElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLevelElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownLevelElement.swift; sourceTree = "<group>"; };
+		AD02A90E9A43506557E5F49966998822 /* Pods_periplo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_periplo.framework; path = "Pods-periplo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46A76250D475EB6EFAE568FEA332676 /* MarkdownKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarkdownKit.framework; path = MarkdownKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BA0F2F9A64BB6D6CAC0FF67591BBABFC /* MarkdownAutomaticLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownAutomaticLink.swift; path = MarkdownKit/Classes/Elements/MarkdownAutomaticLink.swift; sourceTree = "<group>"; };
 		BA0FC5BF294CC3BBE95CA2803E6B1976 /* Pods-periploTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-periploTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF10650CAB166B006158904BBDA4E083 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
-		C08A4FC65388BED4588685C4CA53DDDF /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
-		C641C66D60C7487FF4AEC303FF5254DC /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
-		C77080611194E17138090B85452F32C3 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
 		C7951A2A5AE80CAABEB66452F942A824 /* Pods-periploTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-periploTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA2EB79AB4E23F220FEFA5AE28B4A8BC /* Pods-periplo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-periplo-umbrella.h"; sourceTree = "<group>"; };
-		CD7356B16DD12FBA907C5263242A1F5A /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
-		CE20FC0DFFB63A57862A2BB200D8299C /* MarkdownUnescaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownUnescaping.swift; path = MarkdownKit/Classes/Elements/Escaping/MarkdownUnescaping.swift; sourceTree = "<group>"; };
-		CF84DCBC91365B2DD2BC5A1C2EF502DD /* MarkdownKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MarkdownKit.modulemap; sourceTree = "<group>"; };
-		CFF850CAF5BB0653D7A8944D2224E1A8 /* String+UTF16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UTF16.swift"; path = "MarkdownKit/Classes/Extensions/String+UTF16.swift"; sourceTree = "<group>"; };
-		D03E48D7BA63410AB10F168E92EA6ACB /* MarkdownKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkdownKit-prefix.pch"; sourceTree = "<group>"; };
 		D280D93E66D4A0098297E2CDD7BDF57F /* Pods-periploTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-periploTests.modulemap"; sourceTree = "<group>"; };
-		D3AB203C16ED86EE185F2B04B6502711 /* Pods_periploUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_periploUITests.framework; path = "Pods-periploUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4624BBA2D0FB45B9B7319F04258EDCE /* MarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownParser.swift; path = MarkdownKit/Classes/MarkdownParser.swift; sourceTree = "<group>"; };
-		D6419D7E26F87E3EA9CF890D48577C23 /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		D5AAF3FE450936DBCA9C03B65AF75555 /* UIFont+Traits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Traits.swift"; path = "MarkdownKit/Classes/Extensions/UIFont+Traits.swift"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D8E27C1250FA3B69B844B93C7D67D26A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEE1E82730C429E16B1C6D9DF4FAD489 /* UIFont+Traits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Traits.swift"; path = "MarkdownKit/Classes/Extensions/UIFont+Traits.swift"; sourceTree = "<group>"; };
+		D9519D08D4F828807986811CB049D823 /* MarkdownCommonElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCommonElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownCommonElement.swift; sourceTree = "<group>"; };
 		E140BCB974F71AABD31A93AF8EFBDCBB /* Pods-periploTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-periploTests-frameworks.sh"; sourceTree = "<group>"; };
-		E25A2E2F0D51A5B0A183FF997F18DCDE /* MarkdownElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownElement.swift; sourceTree = "<group>"; };
-		E288EB2E0C5269FE42787289784D5F02 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
 		E485E90775C7064017E91F3C455F349F /* Pods-periplo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-periplo.debug.xcconfig"; sourceTree = "<group>"; };
+		E66A61356501CE3B2C15BDDBDC8B43FE /* MarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownParser.swift; path = MarkdownKit/Classes/MarkdownParser.swift; sourceTree = "<group>"; };
+		E9C92EA0AC45CB196315DB46AC0AC892 /* MarkdownBold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownBold.swift; path = MarkdownKit/Classes/Elements/MarkdownBold.swift; sourceTree = "<group>"; };
 		EAB933D58C7DAAA055A5CC1372450340 /* Pods-periploUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-periploUITests-resources.sh"; sourceTree = "<group>"; };
-		EB3609C3A0F26337112C9CF0EBCCC157 /* MarkdownCommonElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCommonElement.swift; path = MarkdownKit/Classes/Protocols/MarkdownCommonElement.swift; sourceTree = "<group>"; };
 		EF39800A7BDB2ED92463D90A6BC14911 /* Pods-periploUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-periploUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5AF42E63CD002C63B083450D05D80AE /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
-		F65E2A2858BBEFED23F435852937725A /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		F62218B4B3B011AE3097083788C5100F /* MarkdownKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkdownKit-dummy.m"; sourceTree = "<group>"; };
+		F9A634CDE6FD076DD340AF168F140DCC /* MarkdownCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCode.swift; path = MarkdownKit/Classes/Elements/MarkdownCode.swift; sourceTree = "<group>"; };
 		FA71EB0D309BB0934B4DBAEE008F3886 /* Pods-periplo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-periplo-dummy.m"; sourceTree = "<group>"; };
-		FC5FD457DB1B29E6329A928F6484EB14 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		024623855C3923DB79DB78098EE639E6 /* Frameworks */ = {
+		7A803958B0E94DC096AE7F6801D44F07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC0F391CBB51E9E80D64CE9CF9E01BA /* Foundation.framework in Frameworks */,
+				D3AEE7C8AB1193DB242D43A6F39158D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,14 +150,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE30956C47F881212E924E3AD46C15B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B906DF34277253CE5B7875AFB963FD5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -232,8 +175,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				C625E577F5EC98B6A7407C7D25076A4C /* Pods */,
-				DF120C1C7D6E1DD54BC25AC6109015E6 /* Products */,
+				825EE4CE9B77B20324B890F4E3645F67 /* Pods */,
+				F97C5BB1D686BCC63D65DB8A01CA875A /* Products */,
 				D3D332F563A04629EC4FE694167C19BC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -256,6 +199,28 @@
 			path = "Target Support Files/Pods-periploUITests";
 			sourceTree = "<group>";
 		};
+		825EE4CE9B77B20324B890F4E3645F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F22BA23635DCB51C2B44D0B373C25622 /* MarkdownKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83396632BF5F28A9C687A67D739E3539 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2742B7A6AB32E9D1FC1EBD8C20BE0FAC /* Info.plist */,
+				96BD4DDF9540127B2315BA4B7A3C9C36 /* MarkdownKit.modulemap */,
+				04ADCE322506FD6D39FC6BE2E96CB0B6 /* MarkdownKit.xcconfig */,
+				F62218B4B3B011AE3097083788C5100F /* MarkdownKit-dummy.m */,
+				89E55091EE6BBC5B20ECF295F50B9407 /* MarkdownKit-prefix.pch */,
+				548E6149DD8EEAE2836B8738022652CE /* MarkdownKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarkdownKit";
+			sourceTree = "<group>";
+		};
 		8357A98FCE22E4BB5DF0EE93E1467FD5 /* Pods-periplo */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,20 +237,6 @@
 			);
 			name = "Pods-periplo";
 			path = "Target Support Files/Pods-periplo";
-			sourceTree = "<group>";
-		};
-		8FAAEEAF26E066BF86733E5B3312D17C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				59F8A77D26A7A7FD114F29FB706B8DD7 /* Info.plist */,
-				BF10650CAB166B006158904BBDA4E083 /* SwipeCellKit.modulemap */,
-				ABDA4B97C4731E73B705CE99E8621AA7 /* SwipeCellKit.xcconfig */,
-				60E8B99709300F1ADEAC2F896D150301 /* SwipeCellKit-dummy.m */,
-				CD7356B16DD12FBA907C5263242A1F5A /* SwipeCellKit-prefix.pch */,
-				58FA13380B723A69ADDD3E9A47E6B842 /* SwipeCellKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwipeCellKit";
 			sourceTree = "<group>";
 		};
 		92A8C5C143C3832A0E41A5E7D87F46B7 /* Pods-periploTests */ = {
@@ -306,68 +257,6 @@
 			path = "Target Support Files/Pods-periploTests";
 			sourceTree = "<group>";
 		};
-		96E14416540B766CE17524C21158F3F9 /* SwipeCellKit */ = {
-			isa = PBXGroup;
-			children = (
-				C77080611194E17138090B85452F32C3 /* Extensions.swift */,
-				525D7C5829735BE4FA3AE734FFC2AC9A /* Swipeable.swift */,
-				755AA2DEB7E405C43F7D344E787386F7 /* SwipeAction.swift */,
-				A3EF073B893DF22DA9CEF1CA414E1B48 /* SwipeActionButton.swift */,
-				31E4D15A17E812B4F7E5C7A5525A1869 /* SwipeActionsView.swift */,
-				C641C66D60C7487FF4AEC303FF5254DC /* SwipeActionTransitioning.swift */,
-				F65E2A2858BBEFED23F435852937725A /* SwipeAnimator.swift */,
-				F5AF42E63CD002C63B083450D05D80AE /* SwipeExpanding.swift */,
-				2F9CD367AC28A6B8E163D3092FF9803C /* SwipeExpansionStyle.swift */,
-				8F37B065C40B612CFF303AE9C522C0D1 /* SwipeFeedback.swift */,
-				71C35F4E7574E26EC40E19E006283261 /* SwipeTableOptions.swift */,
-				4BF8EB081AE4A11DB29048BE72CBA02C /* SwipeTableViewCell.swift */,
-				E288EB2E0C5269FE42787289784D5F02 /* SwipeTableViewCell+Accessibility.swift */,
-				852BC6F7904986298D0835C5079E7DC5 /* SwipeTableViewCell+Display.swift */,
-				D6419D7E26F87E3EA9CF890D48577C23 /* SwipeTableViewCellDelegate.swift */,
-				C08A4FC65388BED4588685C4CA53DDDF /* SwipeTransitionLayout.swift */,
-				8FAAEEAF26E066BF86733E5B3312D17C /* Support Files */,
-			);
-			name = SwipeCellKit;
-			path = SwipeCellKit;
-			sourceTree = "<group>";
-		};
-		A7AD711152712795A5626F9D94879795 /* MarkdownKit */ = {
-			isa = PBXGroup;
-			children = (
-				BA0F2F9A64BB6D6CAC0FF67591BBABFC /* MarkdownAutomaticLink.swift */,
-				530CD44DBC857A9B1E78C02EC5EA38F3 /* MarkdownBold.swift */,
-				05B39F8801F797D88BE7024FE7DFF056 /* MarkdownCode.swift */,
-				7C915B78A9D7B3291687174A1378962F /* MarkdownCodeEscaping.swift */,
-				EB3609C3A0F26337112C9CF0EBCCC157 /* MarkdownCommonElement.swift */,
-				E25A2E2F0D51A5B0A183FF997F18DCDE /* MarkdownElement.swift */,
-				6FA4DD7B38A7B24C7702D9BC71F197A1 /* MarkdownEscaping.swift */,
-				772432BDAAFA613C2A352DE7CCB9CC62 /* MarkdownHeader.swift */,
-				96E4F89FDCF936714C41F991F8F0B6A7 /* MarkdownItalic.swift */,
-				AC16A01F92F974716A73617A1007A361 /* MarkdownLevelElement.swift */,
-				26E7EB9326B53E5006895E8726FA9F75 /* MarkdownLink.swift */,
-				55FF8F4227F52F549CCE8C7905D73FE0 /* MarkdownLinkElement.swift */,
-				36726472AD7B69E3298BCC908E8A1CBA /* MarkdownList.swift */,
-				D4624BBA2D0FB45B9B7319F04258EDCE /* MarkdownParser.swift */,
-				83DD66E986EB000322809842B61CA873 /* MarkdownQuote.swift */,
-				406B579165A27D01F5B8F2982304082E /* MarkdownStyle.swift */,
-				CE20FC0DFFB63A57862A2BB200D8299C /* MarkdownUnescaping.swift */,
-				CFF850CAF5BB0653D7A8944D2224E1A8 /* String+UTF16.swift */,
-				DEE1E82730C429E16B1C6D9DF4FAD489 /* UIFont+Traits.swift */,
-				E1804799F417F77CB81C9D20EAF46491 /* Support Files */,
-			);
-			name = MarkdownKit;
-			path = MarkdownKit;
-			sourceTree = "<group>";
-		};
-		C625E577F5EC98B6A7407C7D25076A4C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7AD711152712795A5626F9D94879795 /* MarkdownKit */,
-				96E14416540B766CE17524C21158F3F9 /* SwipeCellKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D3D332F563A04629EC4FE694167C19BC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,40 +267,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DF120C1C7D6E1DD54BC25AC6109015E6 /* Products */ = {
+		F22BA23635DCB51C2B44D0B373C25622 /* MarkdownKit */ = {
 			isa = PBXGroup;
 			children = (
-				884129CAB14550D6400B5ED92DD165C9 /* MarkdownKit.framework */,
-				9573A027A666E158963F2B6394C7A842 /* Pods_periplo.framework */,
-				1935CF1665ADCA16960FE017AEBA9188 /* Pods_periploTests.framework */,
-				D3AB203C16ED86EE185F2B04B6502711 /* Pods_periploUITests.framework */,
-				FC5FD457DB1B29E6329A928F6484EB14 /* SwipeCellKit.framework */,
+				2ADDF3967DFAE835DCFA943A4E39E7DF /* MarkdownAutomaticLink.swift */,
+				E9C92EA0AC45CB196315DB46AC0AC892 /* MarkdownBold.swift */,
+				F9A634CDE6FD076DD340AF168F140DCC /* MarkdownCode.swift */,
+				8DF569F143EAFEA6AB3D63C440E29E06 /* MarkdownCodeEscaping.swift */,
+				D9519D08D4F828807986811CB049D823 /* MarkdownCommonElement.swift */,
+				94B58383AE83FFD836756A83D35CD6D9 /* MarkdownElement.swift */,
+				0FFA644CFFE2FEAFB6CEBE74C8704D85 /* MarkdownEscaping.swift */,
+				12A04541DB069262D743C68B8326F96E /* MarkdownHeader.swift */,
+				6BF2C95D714E60FD45CF5D9ECF050C2C /* MarkdownItalic.swift */,
+				947F8F9D77765EB21A776957F859E3E6 /* MarkdownLevelElement.swift */,
+				7E63DBAD44FD6A35CA00A67BFC30335F /* MarkdownLink.swift */,
+				90061F3BF87269DDC3D037297D8ED08C /* MarkdownLinkElement.swift */,
+				20577B8417EDEC7BD4AFB466E6AA244D /* MarkdownList.swift */,
+				E66A61356501CE3B2C15BDDBDC8B43FE /* MarkdownParser.swift */,
+				3779A7D447CAE53867AC36E2B4724B82 /* MarkdownQuote.swift */,
+				58B1AF5EF4914EDF84FDA2612745043B /* MarkdownStyle.swift */,
+				0FA5665B447A00B06547F8E8973B6AA2 /* MarkdownUnescaping.swift */,
+				5CA1675876715D922E6BAB4CA60CB4E9 /* String+UTF16.swift */,
+				D5AAF3FE450936DBCA9C03B65AF75555 /* UIFont+Traits.swift */,
+				83396632BF5F28A9C687A67D739E3539 /* Support Files */,
 			);
-			name = Products;
+			name = MarkdownKit;
+			path = MarkdownKit;
 			sourceTree = "<group>";
 		};
-		E1804799F417F77CB81C9D20EAF46491 /* Support Files */ = {
+		F97C5BB1D686BCC63D65DB8A01CA875A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42B3C053C2F5DE195B1C08E1F246243D /* Info.plist */,
-				CF84DCBC91365B2DD2BC5A1C2EF502DD /* MarkdownKit.modulemap */,
-				9BDD533BFDE729A18323BFE59A4B0B42 /* MarkdownKit.xcconfig */,
-				0990710FEA775F40A167C930764F4C06 /* MarkdownKit-dummy.m */,
-				D03E48D7BA63410AB10F168E92EA6ACB /* MarkdownKit-prefix.pch */,
-				9663B6AABCFE8496FB77F0B4ED218F3F /* MarkdownKit-umbrella.h */,
+				B46A76250D475EB6EFAE568FEA332676 /* MarkdownKit.framework */,
+				AD02A90E9A43506557E5F49966998822 /* Pods_periplo.framework */,
+				5D18613C8564A20A89F7E4F8FFAF827D /* Pods_periploTests.framework */,
+				5FE0E22DF7DE9F7C5C2EF799E8991C84 /* Pods_periploUITests.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MarkdownKit";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1131386E292876764DCD4BA0E83FA7BD /* Headers */ = {
+		15F9AE696B3D2A6931CEB687751A875B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4918D6052E7E42C04C3EA1AF728E209 /* Pods-periplo-umbrella.h in Headers */,
+				100205694091546FED4E1E2389666AA6 /* Pods-periplo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,14 +322,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C2BAB8EBBA7207B2B090E95F4090A5 /* Pods-periploUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		768636799DB1B70ABF8FA394C530DFD7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2940F1FBA090DD447A4C337F4D2210B0 /* SwipeCellKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,25 +344,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		11F7964076283BD04A0A06B14EAD3723 /* Pods-periplo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38D71B0FA6ABC191B204CF7B06CDDD5A /* Build configuration list for PBXNativeTarget "Pods-periplo" */;
-			buildPhases = (
-				73A5D7866D68EDFDC26AF77D0DC964CB /* Sources */,
-				024623855C3923DB79DB78098EE639E6 /* Frameworks */,
-				1131386E292876764DCD4BA0E83FA7BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B4B6C0577F4D6100D2058A1FA8FDE223 /* PBXTargetDependency */,
-				C518C4745D454D32FC2306EFB690BE96 /* PBXTargetDependency */,
-			);
-			name = "Pods-periplo";
-			productName = "Pods-periplo";
-			productReference = 9573A027A666E158963F2B6394C7A842 /* Pods_periplo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		58085D44374CB8AE95E3C58E2753C9C2 /* MarkdownKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C981504A95B101E0C039C8AA5399408 /* Build configuration list for PBXNativeTarget "MarkdownKit" */;
@@ -483,7 +358,7 @@
 			);
 			name = MarkdownKit;
 			productName = MarkdownKit;
-			productReference = 884129CAB14550D6400B5ED92DD165C9 /* MarkdownKit.framework */;
+			productReference = B46A76250D475EB6EFAE568FEA332676 /* MarkdownKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B1297119BA9D04A419DFE84672558DC /* Pods-periploUITests */ = {
@@ -500,24 +375,25 @@
 			);
 			name = "Pods-periploUITests";
 			productName = "Pods-periploUITests";
-			productReference = D3AB203C16ED86EE185F2B04B6502711 /* Pods_periploUITests.framework */;
+			productReference = 5FE0E22DF7DE9F7C5C2EF799E8991C84 /* Pods_periploUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BCC2F0349C3FD4A75510E8F536618C9A /* SwipeCellKit */ = {
+		B05FCF87C7856CA83E887B4B95753BD0 /* Pods-periplo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AB0E1E22729FF163473D81BC5A51702 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildConfigurationList = EB59AA699BA616DD3EBB44DB9AA73F5E /* Build configuration list for PBXNativeTarget "Pods-periplo" */;
 			buildPhases = (
-				CB0816C133CD5DCCB40DE2CB1F3CBF71 /* Sources */,
-				FE30956C47F881212E924E3AD46C15B0 /* Frameworks */,
-				768636799DB1B70ABF8FA394C530DFD7 /* Headers */,
+				4120006BDBEAC66356917ADF7340A254 /* Sources */,
+				7A803958B0E94DC096AE7F6801D44F07 /* Frameworks */,
+				15F9AE696B3D2A6931CEB687751A875B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A0D62F1471BAE141568A1EC70BBF883E /* PBXTargetDependency */,
 			);
-			name = SwipeCellKit;
-			productName = SwipeCellKit;
-			productReference = FC5FD457DB1B29E6329A928F6484EB14 /* SwipeCellKit.framework */;
+			name = "Pods-periplo";
+			productName = "Pods-periplo";
+			productReference = AD02A90E9A43506557E5F49966998822 /* Pods_periplo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FE896B61B2A515F189A1130E1C47CF83 /* Pods-periploTests */ = {
@@ -534,7 +410,7 @@
 			);
 			name = "Pods-periploTests";
 			productName = "Pods-periploTests";
-			productReference = 1935CF1665ADCA16960FE017AEBA9188 /* Pods_periploTests.framework */;
+			productReference = 5D18613C8564A20A89F7E4F8FFAF827D /* Pods_periploTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -554,15 +430,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DF120C1C7D6E1DD54BC25AC6109015E6 /* Products */;
+			productRefGroup = F97C5BB1D686BCC63D65DB8A01CA875A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				58085D44374CB8AE95E3C58E2753C9C2 /* MarkdownKit */,
-				11F7964076283BD04A0A06B14EAD3723 /* Pods-periplo */,
+				B05FCF87C7856CA83E887B4B95753BD0 /* Pods-periplo */,
 				FE896B61B2A515F189A1130E1C47CF83 /* Pods-periploTests */,
 				8B1297119BA9D04A419DFE84672558DC /* Pods-periploUITests */,
-				BCC2F0349C3FD4A75510E8F536618C9A /* SwipeCellKit */,
 			);
 		};
 /* End PBXProject section */
@@ -576,11 +451,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73A5D7866D68EDFDC26AF77D0DC964CB /* Sources */ = {
+		4120006BDBEAC66356917ADF7340A254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C429CF0C2CDFE58338F0C1C2CA171E /* Pods-periplo-dummy.m in Sources */,
+				CF051ED20AA5AFDBDB1E4BFEF2C9E684 /* Pods-periplo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,30 +486,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB0816C133CD5DCCB40DE2CB1F3CBF71 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2EF86F42D6B453E604DFA71B89C56BF /* Extensions.swift in Sources */,
-				4228B81DE6019B76892EFF8B77B51334 /* Swipeable.swift in Sources */,
-				BB3D7486CAA3FAE3451D88E03FFB68AB /* SwipeAction.swift in Sources */,
-				3F2F05AC7AA790062D94F2C295FF4067 /* SwipeActionButton.swift in Sources */,
-				FD1EB3454AB15D4193E68DEE170FB45A /* SwipeActionsView.swift in Sources */,
-				53A37B66CD0651C0290479429AF0C37F /* SwipeActionTransitioning.swift in Sources */,
-				F9D0AF50077FA53AFE48CC27D2C6B659 /* SwipeAnimator.swift in Sources */,
-				9C16F4C3F659FEBA2BB595EB0CD148D7 /* SwipeCellKit-dummy.m in Sources */,
-				53EAA7B056F2045064A66251E901DD33 /* SwipeExpanding.swift in Sources */,
-				FDAC7C8653C5FE2C4DF22562249BFD02 /* SwipeExpansionStyle.swift in Sources */,
-				E640AD46672C1F076BCE8A0882CDAFDD /* SwipeFeedback.swift in Sources */,
-				ABAC76B800592E79F8D40E14587E1136 /* SwipeTableOptions.swift in Sources */,
-				7B2CC758E48C9422700BB5A642BB4E07 /* SwipeTableViewCell+Accessibility.swift in Sources */,
-				F2B091E111279DE109150AE4275ABC08 /* SwipeTableViewCell+Display.swift in Sources */,
-				DEE3C60F8DFAE3B12B3178080E9A4566 /* SwipeTableViewCell.swift in Sources */,
-				81B50D42B91E5FE7DCAEAF046F656722 /* SwipeTableViewCellDelegate.swift in Sources */,
-				8A4A808693D66E677EFA6604CBB85426 /* SwipeTransitionLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D45288DAB14D7C55F715BF83A21D3F21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -646,127 +497,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B4B6C0577F4D6100D2058A1FA8FDE223 /* PBXTargetDependency */ = {
+		A0D62F1471BAE141568A1EC70BBF883E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarkdownKit;
 			target = 58085D44374CB8AE95E3C58E2753C9C2 /* MarkdownKit */;
-			targetProxy = CC073B3A6E040DFB8A3133F484E458A5 /* PBXContainerItemProxy */;
-		};
-		C518C4745D454D32FC2306EFB690BE96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeCellKit;
-			target = BCC2F0349C3FD4A75510E8F536618C9A /* SwipeCellKit */;
-			targetProxy = 72EBC8C422780BEB1A3D2425B2C3AE9F /* PBXContainerItemProxy */;
+			targetProxy = 24FD9B66B62C88584A515229B800C0AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15FE14449E7A8D0B82D5C8B6711F8400 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BDD533BFDE729A18323BFE59A4B0B42 /* MarkdownKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MarkdownKit/MarkdownKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarkdownKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarkdownKit/MarkdownKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MarkdownKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2AD6D329D84BA3B16A8D537A14AE37E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BDD533BFDE729A18323BFE59A4B0B42 /* MarkdownKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MarkdownKit/MarkdownKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarkdownKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarkdownKit/MarkdownKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MarkdownKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		42182C6E1606E65E0AF61C3293BA4FA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF39800A7BDB2ED92463D90A6BC14911 /* Pods-periploUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-periploUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-periploUITests/Pods-periploUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_periploUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		44C9BFB0CAB90D6CAF853AB446CE09D5 /* Debug */ = {
+		0A7245EB89B963B86150941F34650BED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E485E90775C7064017E91F3C455F349F /* Pods-periplo.debug.xcconfig */;
 			buildSettings = {
@@ -805,7 +545,79 @@
 			};
 			name = Debug;
 		};
-		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+		42182C6E1606E65E0AF61C3293BA4FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF39800A7BDB2ED92463D90A6BC14911 /* Pods-periploUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-periploUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-periploUITests/Pods-periploUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_periploUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57EE889191333F4339E12DBADA695E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8400CAED18F4BAB8E437B926B6C78937 /* Pods-periploTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-periploTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-periploTests/Pods-periploTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_periploTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -849,82 +661,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		57EE889191333F4339E12DBADA695E33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8400CAED18F4BAB8E437B926B6C78937 /* Pods-periploTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-periploTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-periploTests/Pods-periploTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_periploTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F4898A2C6625FB564FB8448E61B39AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDA4B97C4731E73B705CE99E8621AA7 /* SwipeCellKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwipeCellKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		90A685F94FE3BE8D6BD85F5B4BB80244 /* Release */ = {
+		99D234B939047C53CC74C7B502DEBEC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D2D9F2CC53101B605B1A69B26511FB5 /* Pods-periplo.release.xcconfig */;
 			buildSettings = {
@@ -1042,9 +784,44 @@
 			};
 			name = Release;
 		};
-		DA1BF7942EE3C729889F2148806974B8 /* Release */ = {
+		C170D566028BD2541354346DEB7685E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDA4B97C4731E73B705CE99E8621AA7 /* SwipeCellKit.xcconfig */;
+			baseConfigurationReference = 04ADCE322506FD6D39FC6BE2E96CB0B6 /* MarkdownKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarkdownKit/MarkdownKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkdownKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarkdownKit/MarkdownKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MarkdownKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9302E0698555E57C01D3ADDFAED1C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ADCE322506FD6D39FC6BE2E96CB0B6 /* MarkdownKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1058,18 +835,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MarkdownKit/MarkdownKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkdownKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MarkdownKit/MarkdownKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwipeCellKit;
+				PRODUCT_NAME = MarkdownKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1118,26 +896,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
 				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38D71B0FA6ABC191B204CF7B06CDDD5A /* Build configuration list for PBXNativeTarget "Pods-periplo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				44C9BFB0CAB90D6CAF853AB446CE09D5 /* Debug */,
-				90A685F94FE3BE8D6BD85F5B4BB80244 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4AB0E1E22729FF163473D81BC5A51702 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F4898A2C6625FB564FB8448E61B39AA /* Debug */,
-				DA1BF7942EE3C729889F2148806974B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1154,8 +914,8 @@
 		7C981504A95B101E0C039C8AA5399408 /* Build configuration list for PBXNativeTarget "MarkdownKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15FE14449E7A8D0B82D5C8B6711F8400 /* Debug */,
-				2AD6D329D84BA3B16A8D537A14AE37E0 /* Release */,
+				C170D566028BD2541354346DEB7685E8 /* Debug */,
+				C9302E0698555E57C01D3ADDFAED1C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1165,6 +925,15 @@
 			buildConfigurations = (
 				FFFAD90B71F45A830057741786AEEB91 /* Debug */,
 				57EE889191333F4339E12DBADA695E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB59AA699BA616DD3EBB44DB9AA73F5E /* Build configuration list for PBXNativeTarget "Pods-periplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7245EB89B963B86150941F34650BED /* Debug */,
+				99D234B939047C53CC74C7B502DEBEC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -26,14 +26,15 @@ class SettingsController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.tintColor = UIColor.rgb(0, 89, 246)
+        self.navigationController?.view.backgroundColor = .white
+//        navigationController?.navigationBar.isTranslucent = false
         
         self.tableView = UITableView(frame: self.tableView.frame, style: .grouped)
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
         navigationItem.title = "Settings"
-        self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont.systemFont(ofSize: 17, weight: UIFontWeightHeavy)]
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSAttributedStringKey.font: UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.heavy)]
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
@@ -51,7 +52,7 @@ class SettingsController: UITableViewController {
         
         let headerLabel = UILabel(frame: CGRect(x: 16, y: 0, width:
             tableView.bounds.size.width, height: tableView.bounds.size.height))
-        headerLabel.font = UIFont.systemFont(ofSize: 13.0, weight: UIFontWeightBold)
+        headerLabel.font = UIFont.systemFont(ofSize: 13.0, weight: UIFont.Weight.bold)
         headerLabel.textColor = UIColor(red:0.45, green:0.46, blue:0.47, alpha:0.75)
         headerLabel.text = self.tableView(self.tableView, titleForHeaderInSection: section)
         headerLabel.sizeToFit()

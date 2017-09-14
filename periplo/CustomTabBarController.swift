@@ -21,7 +21,7 @@ class CustomTabBarController: UITabBarController, UITabBarControllerDelegate {
         
         let homeController = UINavigationController(rootViewController: EntriesController())
         homeController.tabBarItem.title = "Entries"
-        homeController.tabBarItem.setTitleTextAttributes([NSFontAttributeName: UIFont.systemFont(ofSize: 12.0, weight: UIFontWeightHeavy)], for: .normal)
+        homeController.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12.0, weight: UIFont.Weight.heavy)], for: .normal)
         homeController.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -3)
         homeController.tabBarItem.image = #imageLiteral(resourceName: "home")
         homeController.tabBarItem.imageInsets = UIEdgeInsetsMake(-1, 0, 1, 0)
@@ -42,7 +42,7 @@ class CustomTabBarController: UITabBarController, UITabBarControllerDelegate {
         
         let settingsCtrl = UINavigationController(rootViewController: SettingsController())
         settingsCtrl.tabBarItem.title = "Settings"
-        settingsCtrl.tabBarItem.setTitleTextAttributes([NSFontAttributeName: UIFont.systemFont(ofSize: 12.0, weight: UIFontWeightHeavy)], for: .normal)
+        settingsCtrl.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12.0, weight: UIFont.Weight.heavy)], for: .normal)
         settingsCtrl.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -3)
         settingsCtrl.tabBarItem.image = #imageLiteral(resourceName: "profile")
         settingsCtrl.tabBarItem.imageInsets = UIEdgeInsetsMake(-1, 0, 1, 0)

@@ -26,7 +26,7 @@ class AboutController: UIViewController {
     var titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Periplo"
-        label.font = UIFont.systemFont(ofSize: 20, weight: UIFontWeightHeavy)
+        label.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.heavy)
         label.textAlignment = .center
         return label
     }()
@@ -39,13 +39,14 @@ class AboutController: UIViewController {
         return view
     }()
     
-    let info = "Version 1.0\n\nMade with tons of 💜 by [Juan Castro-Varón](http://castrovaron.com), somewhere in between Brooklyn and Bogotá.\n\n"
+    let info = "Version 1.0\n\nMade with tons of 💜 by [Juan Castro Varón](http://castrovaron.com), somewhere in between Seattle, Brooklyn and Bogotá.\n\n"
     
     override func viewDidLoad() {
         view.backgroundColor = UIColor.white
         navigationItem.title = "About"
         
         compileText()
+        edgesForExtendedLayout = []
         setupViews()
     }
     
@@ -54,7 +55,7 @@ class AboutController: UIViewController {
         let style = NSMutableParagraphStyle()
         style.minimumLineHeight = 26
         style.alignment = .center
-        attributedString.addAttributes([NSParagraphStyleAttributeName: style], range: NSRange(location: 0, length: attributedString.length))
+        attributedString.addAttributes([.paragraphStyle: style], range: NSRange(location: 0, length: attributedString.length))
         compiledTextView.attributedText = attributedString
     }
     
@@ -72,7 +73,4 @@ class AboutController: UIViewController {
         view.addConstraintsWithFormat("H:|[v0]|", views: titleLabel)
         view.addConstraintsWithFormat("H:|[v0]|", views: compiledTextView)
     }
-    
-    
-    
 }

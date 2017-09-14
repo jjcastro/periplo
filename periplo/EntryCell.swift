@@ -27,18 +27,16 @@ class EntryCell: BaseCell {
             
             if var entryText = entry?.text {
                 let title = entryText.components(separatedBy: .newlines)[0]
-                let length = title.characters.count
+                let length = title.count
                 if length < 100 && title != "" {
                     titleLabel.text = title.replacingOccurrences(of: "^#*\\s*", with: "", options: .regularExpression)
-                    if let to = entryText.index(entryText.startIndex, offsetBy: length, limitedBy: entryText.endIndex) {
-                        let untrimmed = entryText.substring(from: to)
+                    if let from = entryText.index(entryText.startIndex, offsetBy: length, limitedBy: entryText.endIndex) {
+                        let untrimmed = String(entryText[from...])
                         entryText = untrimmed.replacingOccurrences(of: "^\\n*", with: "", options: .regularExpression)
                     }
                 }
                 previewTextView.text = entryText
             }
-            
-            
             
             if let isFavorite = entry?.isFavorite {
                 starLabel.isHidden = !isFavorite.boolValue
@@ -49,8 +47,7 @@ class EntryCell: BaseCell {
     let dateLabel: UILabel = {
         let label = UILabel()
         label.text = "XX"
-        label.font = UIFont.systemFont(ofSize: 28.0, weight: UIFontWeightHeavy)
-        label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = UIFont.systemFont(ofSize: 28.0, weight: UIFont.Weight.heavy)
         return label
     }()
     
@@ -58,11 +55,8 @@ class EntryCell: BaseCell {
         let label = UILabel()
         
         let attributedString = NSMutableAttributedString(string: "NAN")
-        label.translatesAutoresizingMaskIntoConstraints = false
-       
-        let attributes = [NSKernAttributeName: 1.5,
-                          NSForegroundColorAttributeName: UIColor.rgb(0, 89, 246),
-                          NSFontAttributeName: UIFont.systemFont(ofSize: 13.0, weight: UIFontWeightBold)] as [String : Any];
+        let attributes: [NSAttributedStringKey : Any] = [.kern: 1.5, .foregroundColor: UIColor.rgb(0, 89, 246),
+                                                         .font: UIFont.systemFont(ofSize: 13.0, weight: UIFont.Weight.bold)]
         
         attributedString.addAttributes(attributes, range: NSRange(location: 0, length: attributedString.length))
         label.attributedText = attributedString
@@ -73,7 +67,7 @@ class EntryCell: BaseCell {
     let titleLabel: UILabel = {
         let label = UILabel()
         label.text = ""
-        label.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightBold)
+        label.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -82,7 +76,7 @@ class EntryCell: BaseCell {
         let label = UILabel()
         label.text = "♥"
         label.textColor = UIColor.rgb(255, 94, 255)
-        label.font = UIFont.systemFont(ofSize: 20.0, weight: UIFontWeightBold)
+        label.font = UIFont.systemFont(ofSize: 20.0, weight: UIFont.Weight.bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.isHidden = true
         return label
@@ -98,9 +92,7 @@ class EntryCell: BaseCell {
         style.lineSpacing = 8
         
         let attributedString = NSMutableAttributedString(string: "NULL")
-        let attributes = [NSParagraphStyleAttributeName: style,
-                          NSForegroundColorAttributeName: UIColor.lightGray,
-                          NSFontAttributeName: UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightRegular)] as [String : Any];
+        let attributes: [NSAttributedStringKey : Any] = [.paragraphStyle: style, .foregroundColor: UIColor.lightGray, .font: UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.regular)]
         attributedString.addAttributes(attributes, range: NSRange(location: 0, length: attributedString.length))
         textView.attributedText = attributedString
         

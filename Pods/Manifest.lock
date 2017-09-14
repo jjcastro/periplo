@@ -1,15 +1,22 @@
 PODS:
   - MarkdownKit (1.2)
-  - SwipeCellKit (1.9.0)
 
 DEPENDENCIES:
-  - MarkdownKit
-  - SwipeCellKit
+  - MarkdownKit (from `https://github.com/jjcastro/MarkdownKit.git`, commit `dffc7638d0564520b1142196ed039278b2b92eef`)
+
+EXTERNAL SOURCES:
+  MarkdownKit:
+    :commit: dffc7638d0564520b1142196ed039278b2b92eef
+    :git: https://github.com/jjcastro/MarkdownKit.git
+
+CHECKOUT OPTIONS:
+  MarkdownKit:
+    :commit: dffc7638d0564520b1142196ed039278b2b92eef
+    :git: https://github.com/jjcastro/MarkdownKit.git
 
 SPEC CHECKSUMS:
-  MarkdownKit: 5ff9659d414f9a677b62667f4507766369d32129
-  SwipeCellKit: 893661973276ae3512a84ac0a47055923b10731e
+  MarkdownKit: 6897007276531e73183d723e7f45b7b5e0720a9b
 
-PODFILE CHECKSUM: 710c36f558a8ee8aac9e3cfefe39676781f61e33
+PODFILE CHECKSUM: 856fce42e68af210ac1a4db0603284a03e5c7e5b
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

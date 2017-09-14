@@ -8,9 +8,8 @@
 
 import UIKit
 import CoreData
-import SwipeCellKit
 
-class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFetchedResultsControllerDelegate {
+class EntriesController: UITableViewController, NSFetchedResultsControllerDelegate {
 
     private let cellId = "cellId"
     
@@ -33,12 +32,20 @@ class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFe
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        view.backgroundColor = .white
         
-        navigationController?.navigationBar.isTranslucent = false
+        if #available(iOS 11.0, *) {
+            navigationController?.navigationBar.prefersLargeTitles = true
+            navigationController?.navigationBar.largeTitleTextAttributes = [.font: UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.heavy)]
+        } else {
+            // Fallback on earlier versions
+        }
+//        navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.tintColor = UIColor.rgb(0, 89, 246)
+        self.navigationController?.view.backgroundColor = .white
         
         navigationItem.title = "Entries"
-        self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont.systemFont(ofSize: 17, weight: UIFontWeightHeavy)]
+        navigationController?.navigationBar.titleTextAttributes = [.font: UIFont.systemFont(ofSize: 17, weight: UIFont.Weight.heavy)]
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         
         tableView.backgroundColor = UIColor.white
@@ -62,9 +69,7 @@ class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFe
     
     private func setupNavBarButtons() {
         let editBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "pencil-new"), style: .plain, target: self, action: #selector(createNewNote))
-        let negativeSpacer = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
-        negativeSpacer.width = -8;
-        navigationItem.rightBarButtonItems = [negativeSpacer, editBarButton]
+        navigationItem.rightBarButtonItems = [editBarButton]
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -72,7 +77,7 @@ class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFe
         tableView.reloadData()
     }
     
-    func createNewNote() {
+    @objc func createNewNote() {
         let entry = Entry(context: fetchedResultsController.managedObjectContext)
         entry.text = "# New entry title\n\nPress ✏️ to begin writing!"
         entry.date = Date()
@@ -111,32 +116,12 @@ class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFe
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! EntryCell
-        cell.delegate = self
+//        cell.delegate = self
         
         let entry = fetchedResultsController.object(at: indexPath)
         cell.entry = entry
         
         return cell
-    }
-    
-    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
-        guard orientation == .right else { return nil }
-
-        let favoriteAction = SwipeAction(style: .default, title: nil) { action, indexPath in
-            let entry = self.fetchedResultsController.object(at: indexPath)
-            entry.isFavorite = !(entry.isFavorite?.boolValue)! as NSNumber
-        }
-        
-        favoriteAction.backgroundColor = UIColor.rgb(255, 94, 255)
-        
-        let deleteAction = SwipeAction(style: .destructive, title: nil) { action, indexPath in
-            action.fulfill(with: .delete)
-            self.tableView(self.tableView, commit: .delete, forRowAt: indexPath)
-        }
-        deleteAction.image = whiteTrashImage
-        deleteAction.backgroundColor = UIColor.rgb(233, 26, 0)
-        
-        return [deleteAction]
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -166,14 +151,17 @@ class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFe
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 14.0, weight: UIFontWeightBold)
-        label.text = self.tableView(tableView, titleForHeaderInSection: section)
-        label.textAlignment = .center
-        label.backgroundColor = UIColor.rgb(247, 247, 247)
-        label.layer.borderColor = UIColor.rgb(230, 230, 230).cgColor;
-        label.layer.borderWidth = 1.0;
-        return label
+        let textView = UITextView()
+        textView.font = UIFont.systemFont(ofSize: 14.0, weight: UIFont.Weight.bold)
+        textView.text = self.tableView(tableView, titleForHeaderInSection: section)
+        
+        textView.textAlignment = .center
+        textView.backgroundColor = UIColor.rgb(247, 247, 247)
+        textView.layer.borderColor = UIColor.rgb(230, 230, 230).cgColor
+        textView.layer.borderWidth = 1.0
+        textView.textContainerInset = UIEdgeInsetsMake(5, 0, 5, 0);
+        textView.isUserInteractionEnabled = false
+        return textView
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
@@ -192,10 +180,7 @@ class EntriesController: UITableViewController, SwipeTableViewCellDelegate, NSFe
         case .delete:
             tableView.deleteRows(at: [indexPath!], with: .fade)
         case .update:
-            let cell = tableView.cellForRow(at: indexPath!) as! SwipeTableViewCell
-            cell.hideSwipe(animated: true) { (completion: Bool) in
-                self.tableView.reloadRows(at: [indexPath!], with: .fade)
-            }
+            self.tableView.reloadRows(at: [indexPath!], with: .fade)
         case .move:
             tableView.deleteRows(at: [indexPath!], with: .fade)
             tableView.insertRows(at: [newIndexPath!], with: .fade)

@@ -14,23 +14,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = CustomTabBarController()
         
-        UINavigationBar.appearance().barTintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [
-            NSFontAttributeName: UIFont.systemFont(ofSize: 18.0, weight: UIFontWeightBold)
-        ]
+//        UINavigationBar.appearance().barTintColor = UIColor.white
+//        UINavigationBar.appearance().titleTextAttributes = [
+//            NSAttributedStringKey.font: UIFont.systemFont(ofSize: 18.0, weight: UIFont.Weight.bold)
+//        ]
         
-        application.statusBarStyle = .lightContent
-
-        
+//        application.statusBarStyle = .lightContent
         return true
-
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

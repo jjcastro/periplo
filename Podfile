@@ -5,8 +5,7 @@ target 'periplo' do
   use_frameworks!
 
   # Pods for periplo
-  pod 'SwipeCellKit'
-  pod "MarkdownKit"
+  pod 'MarkdownKit', :git => 'https://github.com/jjcastro/MarkdownKit.git', :commit => 'dffc7638d0564520b1142196ed039278b2b92eef'
 
   target 'periploTests' do
     inherit! :search_paths

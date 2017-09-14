@@ -23,7 +23,7 @@ open class MarkdownHeader: MarkdownLevelElement {
   }
 
   public init(font: UIFont? = UIFont.boldSystemFont(ofSize: UIFont.smallSystemFontSize),
-              maxLevel: Int = 3, fontIncrease: Int = 2, color: UIColor? = nil) {
+              maxLevel: Int = 0, fontIncrease: Int = 2, color: UIColor? = nil) {
     self.maxLevel = maxLevel
     self.font = font
     self.color = color
@@ -34,11 +34,11 @@ open class MarkdownHeader: MarkdownLevelElement {
       attributedString.deleteCharacters(in: range)
   }
 
-  open func attributesForLevel(_ level: Int) -> [String: AnyObject] {
+  open func attributesForLevel(_ level: Int) -> [NSAttributedStringKey: AnyObject] {
     var attributes = self.attributes
     if let font = font {
-      let headerFontSize: CGFloat = font.pointSize + ((CGFloat(maxLevel) - CGFloat(level)) * CGFloat(fontIncrease))
-      attributes[NSFontAttributeName] = font.withSize(headerFontSize).bold()
+        let headerFontSize: CGFloat = font.pointSize + 4 + (-1 * CGFloat(level) * CGFloat(fontIncrease))
+        attributes[NSAttributedStringKey.font] = font.withSize(headerFontSize).bold()
     }
     return attributes
   }

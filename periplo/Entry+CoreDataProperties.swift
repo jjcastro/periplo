@@ -2,12 +2,14 @@
 //  Entry+CoreDataProperties.swift
 //  periplo
 //
-//  Created by Juan José Castro on 7/21/17.
+//  Created by Juan José Castro on 9/13/17.
 //  Copyright © 2017 Juan José Castro. All rights reserved.
+//
 //
 
 import Foundation
 import CoreData
+
 
 extension Entry {
 
@@ -16,10 +18,9 @@ extension Entry {
     }
 
     @NSManaged public var date: Date?
-    @NSManaged public var text: String?
     @NSManaged public var isFavorite: NSNumber?
-    
-    var groupByMonth: String {
+    @NSManaged public var text: String?
+    public var groupByMonth: String {
         get {
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "MMM yyyy"
