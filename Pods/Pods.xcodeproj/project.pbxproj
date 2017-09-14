@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C17DDA86DF98838AA9F2C216A498386 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B58383AE83FFD836756A83D35CD6D9 /* MarkdownElement.swift */; };
+		091CF80B559B41C9BA25F3F9813FA274 /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA644CFFE2FEAFB6CEBE74C8704D85 /* MarkdownEscaping.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		100205694091546FED4E1E2389666AA6 /* Pods-periplo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2EB79AB4E23F220FEFA5AE28B4A8BC /* Pods-periplo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32E317E38590F4C0493BCF21F6A7EBE9 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9519D08D4F828807986811CB049D823 /* MarkdownCommonElement.swift */; };
-		436DAB90079CFBD650C6819D7F338230 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1675876715D922E6BAB4CA60CB4E9 /* String+UTF16.swift */; };
+		110F78A2FCA45DFA276504B7DF101C29 /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A634CDE6FD076DD340AF168F140DCC /* MarkdownCode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		24BA4A3471DF94402F744FB2009F66DF /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63DBAD44FD6A35CA00A67BFC30335F /* MarkdownLink.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F042CAC20D0F7658AEEB87CE21AC2D7 /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2C95D714E60FD45CF5D9ECF050C2C /* MarkdownItalic.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		43D20D573F8275CEDB5EEC6829335FE3 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1675876715D922E6BAB4CA60CB4E9 /* String+UTF16.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		44B54A9E4FEADFDD88E1CACCD9B1B2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		4BB1DAADB2F8561010B38CB65F94AB9D /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF569F143EAFEA6AB3D63C440E29E06 /* MarkdownCodeEscaping.swift */; };
-		5351D77BFF9161FE4786C689799DC52A /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1AF5EF4914EDF84FDA2612745043B /* MarkdownStyle.swift */; };
-		568E701517CDE0E19B5C5FBD15C6F150 /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C92EA0AC45CB196315DB46AC0AC892 /* MarkdownBold.swift */; };
-		58056406F9FF8760EA1719386E842538 /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90061F3BF87269DDC3D037297D8ED08C /* MarkdownLinkElement.swift */; };
+		48D5EEED5EC71B4B17F91884B7BDF95B /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90061F3BF87269DDC3D037297D8ED08C /* MarkdownLinkElement.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5829CE10D3593CDDFB42778556E023D3 /* Pods-periploUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC33FC741CD3CDBBDEDBD3B542FB71F /* Pods-periploUITests-dummy.m */; };
+		5953B2A1A2E90243AF17A1976C49805E /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20577B8417EDEC7BD4AFB466E6AA244D /* MarkdownList.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6412C8269F01CEBEB79B0FF7D3F44408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		66417904BEC2AC0EB4F422A6E41ECA45 /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA644CFFE2FEAFB6CEBE74C8704D85 /* MarkdownEscaping.swift */; };
 		68C2BAB8EBBA7207B2B090E95F4090A5 /* Pods-periploUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E88510AC75CC1356EFBC0F25BA4C47 /* Pods-periploUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C6DFAB8A68B727E84C15238230B0F0 /* Pods-periploTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7397E385A451D72096353F17E468D /* Pods-periploTests-dummy.m */; };
-		741CDDA42538501F67AA50084B7E2E11 /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A04541DB069262D743C68B8326F96E /* MarkdownHeader.swift */; };
-		7A13F873BFF551950C8B0EC35A5B946B /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A634CDE6FD076DD340AF168F140DCC /* MarkdownCode.swift */; };
-		8A627115EB4735ACF32F72FBF3A1DC05 /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63DBAD44FD6A35CA00A67BFC30335F /* MarkdownLink.swift */; };
-		8D0EE977E3082A6FFEB8DDAAD1FEE44B /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F8F9D77765EB21A776957F859E3E6 /* MarkdownLevelElement.swift */; };
+		75BCDF949DBAB045D2348C963B97EED7 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9519D08D4F828807986811CB049D823 /* MarkdownCommonElement.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7802E7AAF446335DAB5D96569FFF4570 /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3779A7D447CAE53867AC36E2B4724B82 /* MarkdownQuote.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7FEEB89E46F38409C66C41E74DEE3559 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A61356501CE3B2C15BDDBDC8B43FE /* MarkdownParser.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		89E55850AC8F52ECF38B79E606F36171 /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1AF5EF4914EDF84FDA2612745043B /* MarkdownStyle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8CA8ECACD5B0C20A85AA0C8E08592956 /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F8F9D77765EB21A776957F859E3E6 /* MarkdownLevelElement.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E14BA8738C3C0C7FA088D8B1DF8387B /* MarkdownKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F62218B4B3B011AE3097083788C5100F /* MarkdownKit-dummy.m */; };
+		8F8508456455374211DD8809815ADAE2 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B58383AE83FFD836756A83D35CD6D9 /* MarkdownElement.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9D46F1D61C69FE5F3D48272856CF2B2C /* MarkdownKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548E6149DD8EEAE2836B8738022652CE /* MarkdownKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFAB65342EF2CA1FC186449A3A6C85A2 /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3779A7D447CAE53867AC36E2B4724B82 /* MarkdownQuote.swift */; };
+		9F409C5FFB7B2136F56ED88723AC4B06 /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF569F143EAFEA6AB3D63C440E29E06 /* MarkdownCodeEscaping.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7CA66FF6067820AAE4E4356D915A8A7 /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA5665B447A00B06547F8E8973B6AA2 /* MarkdownUnescaping.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B77E45E6F0896FA5830E04CF68584C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		B8BE39858DB05ADEF9383F60F07BD760 /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDF3967DFAE835DCFA943A4E39E7DF /* MarkdownAutomaticLink.swift */; };
-		BE42BEC16FEDBDCBDBE3DE15332FE62E /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2C95D714E60FD45CF5D9ECF050C2C /* MarkdownItalic.swift */; };
 		CF051ED20AA5AFDBDB1E4BFEF2C9E684 /* Pods-periplo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA71EB0D309BB0934B4DBAEE008F3886 /* Pods-periplo-dummy.m */; };
+		CFACBC9ABC5D36D3C0D8812D3132611B /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDF3967DFAE835DCFA943A4E39E7DF /* MarkdownAutomaticLink.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D1BF02A412C65529F75031CA147CDA13 /* Pods-periploTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C0BBA97C5EE1C1F9CE7CEA34009B43 /* Pods-periploTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3AEE7C8AB1193DB242D43A6F39158D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		DA8A576F68F1AB0C14D7C061D70F83EA /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA5665B447A00B06547F8E8973B6AA2 /* MarkdownUnescaping.swift */; };
-		DD0AF1C2607FEB39577835E4BD4AA489 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AAF3FE450936DBCA9C03B65AF75555 /* UIFont+Traits.swift */; };
-		E83114A9BF7F252BD24B22FFAE264406 /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20577B8417EDEC7BD4AFB466E6AA244D /* MarkdownList.swift */; };
-		EC2AADCD3557FB8A73CE35C00A62DB90 /* MarkdownKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F62218B4B3B011AE3097083788C5100F /* MarkdownKit-dummy.m */; };
-		ECE3F5CA07D42F6BC95B20FD3E3C5DA6 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A61356501CE3B2C15BDDBDC8B43FE /* MarkdownParser.swift */; };
+		DC7B70CB1F1EA63EF5A56656B65153AB /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AAF3FE450936DBCA9C03B65AF75555 /* UIFont+Traits.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E332CDE72141B33B707D6C2242B0562A /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C92EA0AC45CB196315DB46AC0AC892 /* MarkdownBold.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F701EAC871778343162690409A6BE976 /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A04541DB069262D743C68B8326F96E /* MarkdownHeader.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FFCD1D26D5498F2A6A1EBD86172569C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -348,7 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C981504A95B101E0C039C8AA5399408 /* Build configuration list for PBXNativeTarget "MarkdownKit" */;
 			buildPhases = (
-				A87B83D54A6C94F6ADA8F0369B1855C8 /* Sources */,
+				E560A6E2D2033669B58A902B9FACF7FA /* Sources */,
 				99F961478F433E6130380F993E650B60 /* Frameworks */,
 				A7170D4FCB74B365CCFC6B5D7830ED67 /* Headers */,
 			);
@@ -459,38 +459,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A87B83D54A6C94F6ADA8F0369B1855C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8BE39858DB05ADEF9383F60F07BD760 /* MarkdownAutomaticLink.swift in Sources */,
-				568E701517CDE0E19B5C5FBD15C6F150 /* MarkdownBold.swift in Sources */,
-				7A13F873BFF551950C8B0EC35A5B946B /* MarkdownCode.swift in Sources */,
-				4BB1DAADB2F8561010B38CB65F94AB9D /* MarkdownCodeEscaping.swift in Sources */,
-				32E317E38590F4C0493BCF21F6A7EBE9 /* MarkdownCommonElement.swift in Sources */,
-				0C17DDA86DF98838AA9F2C216A498386 /* MarkdownElement.swift in Sources */,
-				66417904BEC2AC0EB4F422A6E41ECA45 /* MarkdownEscaping.swift in Sources */,
-				741CDDA42538501F67AA50084B7E2E11 /* MarkdownHeader.swift in Sources */,
-				BE42BEC16FEDBDCBDBE3DE15332FE62E /* MarkdownItalic.swift in Sources */,
-				EC2AADCD3557FB8A73CE35C00A62DB90 /* MarkdownKit-dummy.m in Sources */,
-				8D0EE977E3082A6FFEB8DDAAD1FEE44B /* MarkdownLevelElement.swift in Sources */,
-				8A627115EB4735ACF32F72FBF3A1DC05 /* MarkdownLink.swift in Sources */,
-				58056406F9FF8760EA1719386E842538 /* MarkdownLinkElement.swift in Sources */,
-				E83114A9BF7F252BD24B22FFAE264406 /* MarkdownList.swift in Sources */,
-				ECE3F5CA07D42F6BC95B20FD3E3C5DA6 /* MarkdownParser.swift in Sources */,
-				AFAB65342EF2CA1FC186449A3A6C85A2 /* MarkdownQuote.swift in Sources */,
-				5351D77BFF9161FE4786C689799DC52A /* MarkdownStyle.swift in Sources */,
-				DA8A576F68F1AB0C14D7C061D70F83EA /* MarkdownUnescaping.swift in Sources */,
-				436DAB90079CFBD650C6819D7F338230 /* String+UTF16.swift in Sources */,
-				DD0AF1C2607FEB39577835E4BD4AA489 /* UIFont+Traits.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D45288DAB14D7C55F715BF83A21D3F21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5829CE10D3593CDDFB42778556E023D3 /* Pods-periploUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E560A6E2D2033669B58A902B9FACF7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFACBC9ABC5D36D3C0D8812D3132611B /* MarkdownAutomaticLink.swift in Sources */,
+				E332CDE72141B33B707D6C2242B0562A /* MarkdownBold.swift in Sources */,
+				110F78A2FCA45DFA276504B7DF101C29 /* MarkdownCode.swift in Sources */,
+				9F409C5FFB7B2136F56ED88723AC4B06 /* MarkdownCodeEscaping.swift in Sources */,
+				75BCDF949DBAB045D2348C963B97EED7 /* MarkdownCommonElement.swift in Sources */,
+				8F8508456455374211DD8809815ADAE2 /* MarkdownElement.swift in Sources */,
+				091CF80B559B41C9BA25F3F9813FA274 /* MarkdownEscaping.swift in Sources */,
+				F701EAC871778343162690409A6BE976 /* MarkdownHeader.swift in Sources */,
+				3F042CAC20D0F7658AEEB87CE21AC2D7 /* MarkdownItalic.swift in Sources */,
+				8E14BA8738C3C0C7FA088D8B1DF8387B /* MarkdownKit-dummy.m in Sources */,
+				8CA8ECACD5B0C20A85AA0C8E08592956 /* MarkdownLevelElement.swift in Sources */,
+				24BA4A3471DF94402F744FB2009F66DF /* MarkdownLink.swift in Sources */,
+				48D5EEED5EC71B4B17F91884B7BDF95B /* MarkdownLinkElement.swift in Sources */,
+				5953B2A1A2E90243AF17A1976C49805E /* MarkdownList.swift in Sources */,
+				7FEEB89E46F38409C66C41E74DEE3559 /* MarkdownParser.swift in Sources */,
+				7802E7AAF446335DAB5D96569FFF4570 /* MarkdownQuote.swift in Sources */,
+				89E55850AC8F52ECF38B79E606F36171 /* MarkdownStyle.swift in Sources */,
+				A7CA66FF6067820AAE4E4356D915A8A7 /* MarkdownUnescaping.swift in Sources */,
+				43D20D573F8275CEDB5EEC6829335FE3 /* String+UTF16.swift in Sources */,
+				DC7B70CB1F1EA63EF5A56656B65153AB /* UIFont+Traits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
