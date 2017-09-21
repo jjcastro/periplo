@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		578F363419534304DCC40852 /* Pods_periplo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DD760C8FBCB14FF33C7977 /* Pods_periplo.framework */; };
-		812915891F6A2D400097D475 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812915871F6A2D400097D475 /* Entry+CoreDataClass.swift */; };
-		8129158A1F6A2D400097D475 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812915881F6A2D400097D475 /* Entry+CoreDataProperties.swift */; };
+		8129158C1F6A32CC0097D475 /* MarkdownKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8129158B1F6A32CC0097D475 /* MarkdownKeyboard.swift */; };
 		816F02E81F224FBC002BCDD9 /* periplo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 816F02E61F224FBC002BCDD9 /* periplo.xcdatamodeld */; };
 		8185BCAC1F46936D0051B67B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185BCAB1F46936D0051B67B /* SettingsController.swift */; };
 		8185BCAF1F46B2460051B67B /* OpenSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185BCAE1F46B2460051B67B /* OpenSourceController.swift */; };
@@ -24,6 +23,8 @@
 		819A68781F20484A00615759 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68771F20484A00615759 /* BaseCell.swift */; };
 		819A68861F21BCAC00615759 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68851F21BCAC00615759 /* EntryCell.swift */; };
 		819A68881F21DEFC00615759 /* EntryControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A68871F21DEFC00615759 /* EntryControllerHelper.swift */; };
+		81A01DC81F6B6FF200BC9A73 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A01DC61F6B6FF200BC9A73 /* Entry+CoreDataClass.swift */; };
+		81A01DC91F6B6FF200BC9A73 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A01DC71F6B6FF200BC9A73 /* Entry+CoreDataProperties.swift */; };
 		81C0F0801F25CB2000A60128 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0F07F1F25CB2000A60128 /* CustomTabBarController.swift */; };
 		B8FFD6A16ADCC4DA9A6A2E86 /* Pods_periploTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC8E9A4096DE4F9CE9BD8E0 /* Pods_periploTests.framework */; };
 		D052D076FF29565E67266072 /* Pods_periploUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6556004D2F206A7FAC9A7EA4 /* Pods_periploUITests.framework */; };
@@ -53,8 +54,7 @@
 		6556004D2F206A7FAC9A7EA4 /* Pods_periploUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_periploUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC8E9A4096DE4F9CE9BD8E0 /* Pods_periploTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_periploTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A7C4006CFCAFACEFA4E8B8 /* Pods-periplo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periplo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-periplo/Pods-periplo.debug.xcconfig"; sourceTree = "<group>"; };
-		812915871F6A2D400097D475 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
-		812915881F6A2D400097D475 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8129158B1F6A32CC0097D475 /* MarkdownKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownKeyboard.swift; sourceTree = "<group>"; };
 		816F02E71F224FBC002BCDD9 /* periplo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = periplo.xcdatamodel; sourceTree = "<group>"; };
 		8185BCAB1F46936D0051B67B /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		8185BCAE1F46B2460051B67B /* OpenSourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSourceController.swift; sourceTree = "<group>"; };
@@ -74,6 +74,8 @@
 		819A68771F20484A00615759 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		819A68851F21BCAC00615759 /* EntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
 		819A68871F21DEFC00615759 /* EntryControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryControllerHelper.swift; sourceTree = "<group>"; };
+		81A01DC61F6B6FF200BC9A73 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		81A01DC71F6B6FF200BC9A73 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		81C0F07F1F25CB2000A60128 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		9DAD16E4460980D210A26F0B /* Pods-periploTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-periploTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-periploTests/Pods-periploTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3DD760C8FBCB14FF33C7977 /* Pods_periplo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_periplo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 			children = (
 				819A68441F1F184C00615759 /* EntriesController.swift */,
 				8193951E1F258D610031721B /* SingleEntryController.swift */,
+				8129158B1F6A32CC0097D475 /* MarkdownKeyboard.swift */,
 			);
 			name = Entries;
 			sourceTree = "<group>";
@@ -208,8 +211,8 @@
 		81C0F07E1F25B0F300A60128 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				812915871F6A2D400097D475 /* Entry+CoreDataClass.swift */,
-				812915881F6A2D400097D475 /* Entry+CoreDataProperties.swift */,
+				81A01DC61F6B6FF200BC9A73 /* Entry+CoreDataClass.swift */,
+				81A01DC71F6B6FF200BC9A73 /* Entry+CoreDataProperties.swift */,
 				819A68871F21DEFC00615759 /* EntryControllerHelper.swift */,
 			);
 			name = Model;
@@ -525,16 +528,17 @@
 			files = (
 				8185BCAC1F46936D0051B67B /* SettingsController.swift in Sources */,
 				819A68881F21DEFC00615759 /* EntryControllerHelper.swift in Sources */,
+				81A01DC81F6B6FF200BC9A73 /* Entry+CoreDataClass.swift in Sources */,
 				816F02E81F224FBC002BCDD9 /* periplo.xcdatamodeld in Sources */,
 				819A68761F20447100615759 /* Extensions.swift in Sources */,
+				8129158C1F6A32CC0097D475 /* MarkdownKeyboard.swift in Sources */,
+				81A01DC91F6B6FF200BC9A73 /* Entry+CoreDataProperties.swift in Sources */,
 				8185BCB11F48101B0051B67B /* AboutController.swift in Sources */,
 				819A68451F1F184C00615759 /* EntriesController.swift in Sources */,
 				819A68781F20484A00615759 /* BaseCell.swift in Sources */,
 				8185BCAF1F46B2460051B67B /* OpenSourceController.swift in Sources */,
-				8129158A1F6A2D400097D475 /* Entry+CoreDataProperties.swift in Sources */,
 				8193951F1F258D610031721B /* SingleEntryController.swift in Sources */,
 				819A68861F21BCAC00615759 /* EntryCell.swift in Sources */,
-				812915891F6A2D400097D475 /* Entry+CoreDataClass.swift in Sources */,
 				81C0F0801F25CB2000A60128 /* CustomTabBarController.swift in Sources */,
 				819A68431F1F184C00615759 /* AppDelegate.swift in Sources */,
 			);

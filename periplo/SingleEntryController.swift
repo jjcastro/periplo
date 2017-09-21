@@ -33,7 +33,7 @@ class SingleEntryController: UIViewController, UITextViewDelegate {
     
     lazy var notepadView: UITextView = {
         let textView = UITextView()
-        textView.inputAccessoryView = keyboardExtension
+        textView.inputAccessoryView = MarkdownHelperStrip(textView: textView)
         
         var style = NSMutableParagraphStyle()
         style.minimumLineHeight = 26
@@ -44,13 +44,6 @@ class SingleEntryController: UIViewController, UITextViewDelegate {
         attributedString.addAttributes(attributes, range: NSRange(location: 0, length: attributedString.length))
         textView.attributedText = attributedString
         return textView
-    }()
-    
-    var keyboardExtension: UIView = {
-        var frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50)
-        var view = UIView(frame: frame)
-        view.backgroundColor = .red
-        return view
     }()
     
     override func viewDidLoad() {

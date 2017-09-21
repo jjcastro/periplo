@@ -130,7 +130,7 @@ class EntryCell: BaseCell {
         addConstraintsWithFormat("H:|-16-[v0(40)]-13-[v1]-[v2(20)]-12-|", views: dayNameLabel, titleLabel, starLabel)
         addConstraintsWithFormat("H:|-16-[v0(40)]-12-[v1]-|", views: dateLabel, previewTextView)
         addConstraintsWithFormat("H:|-34-[v0(3)]-33-[v1]|", views: timelineViewBtm, separatorView)
-        addConstraintsWithFormat("H:|-34-[v0(3)]", views: timelineViewTop, separatorView)
+        addConstraintsWithFormat("H:|-34-[v0(3)]", views: timelineViewTop)
         
         addConstraintsWithFormat("V:|[v0(12)]-10-[v1(11)]-4-[v2(30)]-8-[v3]|", views: timelineViewTop, dayNameLabel, dateLabel, timelineViewBtm)
         addConstraintsWithFormat("V:|-16-[v0(20)]-8-[v1(50)]", views: titleLabel, previewTextView)

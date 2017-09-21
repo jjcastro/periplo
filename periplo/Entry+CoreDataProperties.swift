@@ -2,7 +2,7 @@
 //  Entry+CoreDataProperties.swift
 //  periplo
 //
-//  Created by Juan José Castro on 9/13/17.
+//  Created by Juan José Castro on 9/14/17.
 //  Copyright © 2017 Juan José Castro. All rights reserved.
 //
 //
@@ -20,7 +20,8 @@ extension Entry {
     @NSManaged public var date: Date?
     @NSManaged public var isFavorite: NSNumber?
     @NSManaged public var text: String?
-    public var groupByMonth: String {
+    
+    @objc public var groupByMonth: String {
         get {
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "MMM yyyy"
